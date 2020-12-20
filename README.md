@@ -13,6 +13,12 @@ In particular, as part of this section we recommend that you provide a list of U
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
+### Navigation
+There is a mobile-first focus and therefore I wanted to keep in mind first what will work on mobile. 
+Mobile - Hamburger menu so that the screen does not look to crowded. The menu would collaps when tapped.
+Tablet - I decided to have the full menu navigation bar at the top of the screen as there is more space on a tablet 
+Desktop - Full navigation menu at the top of the main menu items: Home, Portfolio, About and Contact
+
 ## Features
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
