@@ -1,1 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    box-sizing: content-box;
+}
+
+.container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/* ----------------------------------------Nav Bar */
+
+
+
+/* ----------------------------------------Hero Image */
+
+figure{
+    background-color: black;
+}
+
+
+#herobox {
+    background-image: url(assets/images/franciska_du_toit_homepage_image.jpg);
+    opacity: 1;
+}
+
+
+.hero {
+    background-size: cover;
+    background-position: center center;
+    display: inline-block;
+}
+
+/* ----------------------------------------Personal Info */
+
+
+.personal-info {
+    height: 695px;;
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 0%;
+}
+
+.personal-info, h1{
+    font-size: 20pt;
+}
+
+
+
+/* ----------------------------------------Media Queries */
+
+
+@media only screen and (max-width: 767px) {
+.hero-container {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+}
+
+@media only screen and (max-width: 1024px) {
+.hero {
+    height: 50vh;
+    position: relative;
+    width: 100%;
+}
+}
