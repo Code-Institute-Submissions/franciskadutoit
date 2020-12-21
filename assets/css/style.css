@@ -4,17 +4,24 @@
 body{
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
-    box-sizing: content-box;
+    
 }
 
 .container-fluid{
     padding-left: 0px;
     padding-right: 0px;
+    
 }
 
 /* ----------------------------------------Nav Bar */
 
+.navbar-toggler {
+    padding-right: 10%;
+}
 
+.navbar-toggler-icon {
+    color: aquamarine;
+}
 
 /* ----------------------------------------Hero Image */
 
@@ -41,28 +48,55 @@ figure{
 .personal-info {
     height: 695px;;
     padding-top: 3%;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
     padding-bottom: 0%;
 }
 
 .personal-info, h1{
-    font-size: 20pt;
+    font-size: x-large;
 }
+
+.personal-info, p{
+    font-weight: 200;
+    font-size: large;
+}
+
+.bullet {
+    align-items: flex-start;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.bullet-icon{
+    display: flex;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;
+    border: 1px solid #bfbfbf;
+    border-radius: 35px;
+    background-color: #fff;
+}
+
+.bullet-text {
+    color: #636363;
+    font-size: 15px;
+    font-weight: 300;
+    padding-right: 30px;
+}
+
+
+
 
 
 
 /* ----------------------------------------Media Queries */
 
 
-@media only screen and (max-width: 767px) {
-.hero-container {
-    padding-left: 30px;
-    padding-right: 30px;
-}
-}
-
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 768px) {
 .hero {
     height: 50vh;
     position: relative;
