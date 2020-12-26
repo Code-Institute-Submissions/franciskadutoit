@@ -1,17 +1,42 @@
 # Franciska Du Toit Personal Website & Portfolio
 
-One or two paragraphs providing an overview of your project.
+A personal website to showcase the resume and portfolio of Franciska Du Toit based in Ireland. The purpose of the website is to give future employers a better look into the personality, achievements and projects of the individual. It is important in the technology field that people can see what a designer and developer can do, what their process is and what they can show for it at the end of the project. Therefore a personal profile and portfolio website is vital to connect with the user and also have a central place of information about Franciska Du Toit.  
 
-Essentially, this part is your sales pitch.
- 
+The main goals of this site? 
+* To promote the brand of Franciska Du Toit
+* To attract attention from recruiters
+* To inspire other people 
+* To showcase portfolio of work
+* A way to contact Franciska Du Toit
+
 ## UX
- 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+### User Persona
+This website is for users interested in information about Franciska Du Toit including employers and recruiters to get more insights to what skills the individual has, examples of those skills and also to understand who the individual is as a person. 
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+### Who are we building it for?
+* Recruiters
+* Potential employers
+* Potential followers/observers
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+### What are the goals & needs of the user?
+* Easily find information on the individual
+* Get a full picture of the individual and the types of projects they are / want to be involved in
+* To see a body of work done by the individual
+
+### What are the goals & needs of the designer & developer?
+* Showcase process and quality of projects 
+* Building brand awareness 
+* Attract attention from prospective employers, recruiters or entities to work with
+
+### User Stories
+
+* As a recruiter, I want to see some background information of Franciska Du Toit, so that I can understand if she will be a good fit with an organisation.
+* As a recruiter, I want to see Franciska Du Toit’s portfolio of projects, so that I can see and understand her process when taking on a project.
+* As a recruiter, I want to see Franciska Du Toit’s CV, so that I can view her previous experience and qualifications
+* As a new visitor to the website, I want to easily navigate the site, so I can find what I need efficiently.
+* As a new visitor to the website, I want to easily navigate the site, so I can find what I need efficiently.
+* As a new visitor to the website, I want learn more about Franciska Du Toit, so I can feel that I understand her purpose and what she stands for
+* As an interested follower and observer, I want to follow Franciska Du Toit on social media, so I can keep up with her latest news.
 
 ### Wireframe mockups: 
 - [Home](assets/wireframes/Home_Page_Wireframe.png)
