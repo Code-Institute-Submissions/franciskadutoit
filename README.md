@@ -93,19 +93,19 @@ At the bottom of the form, clients can click on the button to send a **message v
 ### Features Left to Implement
 - A blog/ Articles - Allows the user to see some articles written by the Franciska Du Toit establishing her as a thought leader. - she currently doesn't have time to write a blog
 
-
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
 - This project uses HTML and CSS programming languages
-- BootstrapCDN
---The project uses Bootstrap4 to simplify the structure of the website and make the website responsive easily.
---The project also uses BootstrapCDN to provide icons from FontAwesome
-
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-
+- [Gitpod](https://www.gitpod.io/) - This developer used **Gitpod** for their IDE while building the website.
+- [Popper.js](https://popper.js.org/)
+    - The project uses **Popper,js** reference Javascript needed for the responsive navbar
+- [BootstrapCDN](https://www.bootstrapcdn.com/)
+    - The project uses **Bootstrap4** to simplify the structure of the website and help make the website responsive easy to do.
+    - The project also uses BootstrapCDN to provide icons from [FontAwesome](https://www.bootstrapcdn.com/fontawesome/)
+- [Google Fonts](https://fonts.google.com/)
+    - The project uses **Google fonts** to style the website fonts.
+- [jQuery](https://jquery.com/)
+    - The project uses **jQuery** to reference Javascript needed for the responsive navbar,
 
 ## Testing
 
