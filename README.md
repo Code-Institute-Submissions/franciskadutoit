@@ -13,6 +13,12 @@ In particular, as part of this section we recommend that you provide a list of U
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
+##### Wireframe mockups: 
+[Home]()
+[Portfolio]()
+[About]()
+[Contact]()
+
 ### Navigation
 There is a mobile-first focus and therefore I wanted to keep in mind first what will work on mobile. 
 Mobile - Hamburger menu so that the screen does not look to crowded. The menu would collaps when tapped.
@@ -22,6 +28,11 @@ Desktop - Full navigation menu at the top of the main menu items: Home, Portfoli
 ## Features
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+
+Home
+Portfolio
+About
+Contact
  
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
@@ -37,6 +48,11 @@ In addition, you may also use this section to discuss plans for additional featu
 ## Technologies Used
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+
+- This project uses HTML and CSS programming languages
+- BootstrapCDN
+--The project uses Bootstrap4 to simplify the structure of the website and make the website responsive easily.
+--The project also uses BootstrapCDN to provide icons from FontAwesome
 
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
@@ -77,11 +93,16 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The text for this website was created by Franciska Du Toit
 
 ### Media
-- The photos used in this site were obtained from ...
+- All the photos used in this site were obtained from Franciska Du Toit
+
+### Code
+- HTML originally taken from ...
+- CSS originally taken from...
 
 ### Acknowledgements
 
 - I received inspiration for this project from X
+I received inspiration for this project from my own experience of building and maintaining a WordPress website for my personal website for the past few years.
