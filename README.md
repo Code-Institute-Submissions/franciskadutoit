@@ -44,31 +44,55 @@ This website is for users interested in information about Franciska Du Toit incl
 - [About](assets/wireframes/About_Page_Wireframe.png)
 - [Contact](assets/wireframes/Contact_Page_Wireframe.png)
 
-### Navigation
-There is a mobile-first focus and therefore I wanted to keep in mind first what will work on mobile. 
-Mobile - Hamburger menu so that the screen does not look to crowded. The menu would collaps when tapped.
-Tablet - I decided to have the full menu navigation bar at the top of the screen as there is more space on a tablet 
-Desktop - Full navigation menu at the top of the main menu items: Home, Portfolio, About and Contact
-
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+Each page features a responsive **navigation bar** at the top with conventional placing of **logo** (top left)
+* There is a mobile-first focus and therefore I wanted to keep in mind first what will work on mobile. 
+* For Mobile - Hamburger menu so that the screen does not look to crowded. The menu would collaps when tapped.
+* For Tablet - I decided to have the full menu navigation bar at the top of the screen as there is more space on a tablet 
+* For Desktop - Full navigation menu at the top of the main menu items: Home, Portfolio, About and Contact
+Each page has a **footer** with **social media icons** linking to 4 Franciska Du Toit’s social media pages.
+Each page features a hero image. On mobile and tablet devices the static hero image is at the top with the text at the bottom. On desktops the static hero image moves to the left and takes up 50% of the page. The content takes up 50% on the other side of the screen.
 
-Home
-Portfolio
-About
-Contact
+### Home
+There is a **call to action button** to take the user directly to the **About page**.
+There are 4 **list items** to give a short overview of who Franciska Du Toit is.
+
+### Portfolio
+The Portfolio page has 4 **sub-menu items** laid out in **columns**, 2 columns wide for all devices.
+Each item is square which is animated by using a hover effect that will sweep down when the user’s mouse hover over them. 
+Each item can be clicked to take the user to the respective submenu item pages.
+
+### About
+The About page includes copy about the Franciska Du Toit.
+The page also has a list with 5 **project list items** which if clicked will reveal more information on the project. 
+There is also a **call to action button** to guide the user to see all the projects by Franciska Du Toit
+There is also a feature on Franciska Du Toit’s qualifications which has 2 sections for In Progress which only has 1 list item and Completed which has 4 list items.
+Lastly, there is also a download icon to indicate to the user that they can download a pdf version of her CV. There is then a link to the pdf document for the user to make it more convenient to read or print.
+
+### Contact
+The Contact page features a **contact form**, which requests client name and email, subject line, and a box for the main message. 
+The bottom of the form contains a **Send Button**
+At the bottom of the form, clients can click on the button to send a **message via LinkedIn**.
+
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+#### Header
+- Logo - Features on all the pages and allows the user to easily recognise the brand of Franciska Du Toit. If the user clicks on the logo, it will return the users to the home page as they would expect.
+- Navigation Bar - Features on all the pages and allows the user to easily navigate the website's pages and find what they are looking for with ease and speed.
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+#### Footer 
+- Social Icons - Features on all the pages and allows the user to access the social platforms that Franciska Du Toit uses.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+#### Specific Pages
+- [Home Page](index.html) - Allows the user to see a quick snapshot of who is Franciska Du Toit
+- [Portfolio Page](portfolio.html) - Allows the user to see a high level page to navigate them to specific projects in her portfolio
+- [About Page](about.html) - Allows the user to connect with Franciska Du Toit by providing a snapshot of information of her CV but also providing the option to download a more detailed pdf version.
+- [Contact Form](contact.html) - Allows the user to get in contact or ask questions in two ways: by entering the form or connecting to LinkedIn.
 
 ### Features Left to Implement
-- Another feature idea
+- A blog/ Articles - Allows the user to see some articles written by the Franciska Du Toit establishing her as a thought leader. - she currently doesn't have time to write a blog
+
 
 ## Technologies Used
 
