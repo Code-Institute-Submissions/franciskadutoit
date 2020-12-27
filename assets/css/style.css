@@ -5,6 +5,7 @@ body{
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     
+    
 }
 
 .container-fluid{
@@ -18,12 +19,9 @@ body{
 /* ----------------------------------------Nav Bar */
 
 .navbar-toggler {
-    padding-right: 10%;
+    padding-right: 20%;
 }
 
-.navbar-toggler-icon {
-    color: aquamarine;
-}
 
 /* ----------------------------------------Hero Image */
 
@@ -49,24 +47,27 @@ figure{
 
 .personal-info {
     padding-top: 3%;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 9%;
+    padding-right: 15%;
     padding-bottom: 0%;
 }
 
 .personal-info, h1{
-    font-size: x-large;
+    font-size: large;
+    text-align: left;
 }
 
 .personal-info, p{
     font-weight: 200;
-    font-size: large;
+    font-size: medium;
 }
 
+ /* original code credit for bullets: https://austinknight.com/ */
 .bullet {
-    align-items: flex-start;
     display: flex;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    -webkit-box-align: start;
+    align-items: flex-start;
 }
 
 .bullet-icon{
@@ -74,8 +75,11 @@ figure{
     width: 25px;
     height: 25px;
     margin-right: 10px;
+    -webkit-box-pack: center;
     justify-content: center;
     align-items: center;
+    -webkit-box-align: center;
+    -webkit-box-flex: 0;
     flex: 0 0 auto;
     border: 1px solid #bfbfbf;
     border-radius: 35px;
@@ -84,9 +88,10 @@ figure{
 
 .bullet-text {
     color: #636363;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 300;
     padding-right: 30px;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* ----------------------------------------Footer */
