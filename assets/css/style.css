@@ -46,7 +46,6 @@ figure{
 
 
 .personal-info {
-    padding-top: 3%;
     padding-left: 9%;
     padding-right: 15%;
     padding-bottom: 0%;
@@ -98,22 +97,51 @@ figure{
 
 .footer{
     position: relative;
-    background-color: rgb(245, 245, 245);
+    background-color: #e6e6e6;
+    width: 100%;
+    margin-top: 2%;
     text-align: center;
     letter-spacing: 1px;
-    font-size: 5px;
-    padding: 25px 40px 5px;
-    margin: 50px -40px 0;
+    font-size: 15px;
+    padding: 5% 10% 5% 17%;
+}
+
+.footer-container{
+    position: relative;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 25px;
+    padding-left: 25px;
+    clear: none;
 }
 
 .footer-text {
-    font-size: 2em;
     font-weight: 100;
-    text-align: center;
+    font-size: x-small;
 }
 
 .footer a {
     color: #222222;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    padding-top: 3px;
+    border-width: 5px;
+    color: #676767;
+    line-height: 18px;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.linkedin {
+    max-width: 25px;
+    margin-right: 20px;
+    float: right;
+    opacity: 1;
+    transition: opacity 400ms ease;
+}
+
+.inline-block{
+    display: inline-block;
 }
 
 .social-list{
@@ -127,14 +155,77 @@ figure{
     display: inline-block;
 }
 
+.copyright {
+    color: #676767;
+    font-size: small;
+    padding-bottom: 10px;
+}
+
+.copyright-icon{
+    margin-right: 5px;
+    font-family: 'Poppins', sans-serif;;
+}
+
 
 /* ----------------------------------------Media Queries */
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
 .hero {
     height: 50vh;
     position: relative;
     width: 100%;
 }
 }
+
+/* For Desktop*/
+@media screen and (min-width: 600px){
+.personal-info {
+    padding-top: 9%;
+    padding-bottom: 10%;
+}
+}
+
+/* For Desktop*/
+@media screen and (min-width: 800px){
+.personal-info {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+}
+
+/* For Tablet*/
+@media screen and (min-width: 600px){
+.footer {
+    padding-right: 25px;
+    padding-left: 25px;
+}
+}
+/* For Desktop*/
+@media screen and (min-width: 768px){
+.footer {
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 10%;
+}
+}
+
+/* For Tablet*/
+@media screen and (min-width: 600px){
+.footer-container {
+    padding-right: 25px;
+    padding-left: 25px;
+}
+}
+/* For Desktop*/
+@media screen and (min-width: 768px){
+.footer-container {
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+}
+}
+
