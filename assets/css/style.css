@@ -25,21 +25,8 @@ body{
 
 /* ----------------------------------------Hero Image */
 
-figure{
-    background-color: black;
-}
-
-
-#herobox {
-    background-image: url(assets/images/franciska_du_toit_homepage_image.jpg);
-    opacity: 1;
-}
-
-
-.hero {
-    background-size: cover;
-    background-position: center center;
-    display: inline-block;
+.figure{
+    padding-bottom: 1%;
 }
 
 /* ----------------------------------------Personal Info Page */
@@ -206,14 +193,6 @@ figure{
 
 /* ----------------------------------------Media Queries */
 
-
-@media only screen and (max-width: 600px) {
-.hero {
-    height: 50vh;
-    position: relative;
-    width: 100%;
-}
-}
 
 @media screen and (max-width: 600px){
 .quote-container {
