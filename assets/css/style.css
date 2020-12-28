@@ -42,7 +42,7 @@ figure{
     display: inline-block;
 }
 
-/* ----------------------------------------Personal Info */
+/* ----------------------------------------Personal Info Page */
 
 
 .personal-info {
@@ -94,7 +94,6 @@ figure{
 }
 
 /* Original Code from https://www.w3schools.com/css/css3_buttons.asp */
-
 .btn-container {
     position: relative;
 }
@@ -114,6 +113,20 @@ figure{
 #about-btn:hover {
     background-color: #555555;
     color: white;
+}
+
+.quote-container {
+    padding-top: 5%;
+    padding-bottom: none;
+    margin-bottom: 0;
+    font-size: x-small;
+}
+
+.blockquote p {
+    font-size: 14px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 0%;
 }
 
 
@@ -202,6 +215,12 @@ figure{
 }
 }
 
+@media screen and (max-width: 600px){
+.quote-container {
+    display: none;
+}
+}
+
 /* For Desktop*/
 @media screen and (min-width: 600px){
 .personal-info {
@@ -213,7 +232,7 @@ figure{
 /* For Desktop*/
 @media screen and (min-width: 800px){
 .personal-info {
-    padding-top: 10%;
+    padding-top: 6%;
     padding-bottom: 10%;
 }
 }
