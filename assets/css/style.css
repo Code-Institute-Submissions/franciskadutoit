@@ -93,6 +93,30 @@ figure{
     font-family: 'Poppins', sans-serif;
 }
 
+/* Original Code from https://www.w3schools.com/css/css3_buttons.asp */
+
+.btn-container {
+    position: relative;
+}
+
+.center-btn{
+    -ms-transform: translateX(30%);
+    transform: translateX(30%);
+}
+
+#about-btn{
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    border-radius: 8px;
+}
+
+#about-btn:hover {
+    background-color: #555555;
+    color: white;
+}
+
+
 /* ----------------------------------------Footer */
 
 .footer{
@@ -228,4 +252,10 @@ figure{
     margin-top: 0;
 }
 }
-
+@media screen and (min-width: 768px){
+.center-btn{
+    padding-top: 2%;
+    -ms-transform: translateX(0%);
+    transform: translateX(0%);
+}
+}
