@@ -119,16 +119,16 @@ body{
 /* ----------------------------------------Portfolio Page */
 
 .menu-color-ui{
-    background-color: #555555;
+    background-color: #316879;
 }
 .menu-color-ux{
-    background-color: #555555;
+    background-color: #f47a60;
 }
 .menu-color-code{
-    background-color: #555555;
+    background-color: #7fe7dc;
 }
 .menu-color-other{
-    background-color: #555555;
+    background-color: #ced7d8;
 }
 
 .list-inline-item:not(:last-child) {
@@ -136,6 +136,10 @@ body{
 }
 .menucontainer {
     font-size: 0;
+}
+
+#nav {
+    margin: 0;
 }
 
 #nav li{
@@ -152,11 +156,33 @@ body{
 .menu-item a {
     width: 100%;
     text-decoration: none;
+    color: #555555;
+    height: 120px;
+}
+
+.menu-item-ui {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menu-item-ui a {
+    width: 100%;
+    text-decoration: none;
     color: #fff;
     height: 120px;
 }
 
 .menu-item span {
+    display: block;
+    width: 100%;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.menu-item-ui span {
     display: block;
     width: 100%;
     padding-top: 50px;
