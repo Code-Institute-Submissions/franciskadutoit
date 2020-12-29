@@ -216,6 +216,44 @@ body{
     font-size: medium;
 }
 
+/*original code credit for project timeline list: https://austinknight.com/ */
+.project-timeline-container {
+    position: relative;
+    display: block;
+    padding: 35px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: #676767;
+    text-decoration: none;
+}
+
+.project-timeline-heading {
+    position: relative;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+    color: #636363;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+}
+
+.timeline-line {
+    height: 3px;
+    margin-top: 50px;
+    margin-left: -20px;
+    background-color: transparent;
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(1%, hsla(0, 0%, 86.7%, 0)), color-stop(12%, #ddd));
+    background-image: linear-gradient(90deg, hsla(0, 0%, 86.7%, 0) 1%, #ddd 12%);
+}
+
+.project-timeline-tab{
+    margin-top: -22px;
+}
+
+
+
 /* ----------------------------------------Contact Page */
 
 .form-container{
