@@ -32,18 +32,17 @@ body{
 /* ----------------------------------------Personal Info Page */
 
 
-.personal-info {
-    padding-left: 9%;
-    padding-right: 15%;
-    padding-bottom: 0%;
+.personal-info-container {
+    padding-left: 8%;
+    padding-right: 10%;
+    text-align: center;
 }
 
-.personal-info, h1{
+.personal-info-container, h1{
     font-size: large;
-    text-align: left;
 }
 
-.personal-info, p{
+.personal-info-container, p{
     font-weight: 200;
     font-size: medium;
 }
@@ -85,11 +84,6 @@ body{
     position: relative;
 }
 
-.center-btn{
-    -ms-transform: translateX(30%);
-    transform: translateX(30%);
-}
-
 #about-btn{
     background-color: white;
     color: black;
@@ -118,6 +112,16 @@ body{
 
 /* ----------------------------------------Portfolio Page */
 
+.portfolio-text-container{
+    padding-left: 8%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+.portfolio-heading{
+    text-align: center;
+}
+
 .menu-color-ui{
     background-color: #316879;
 }
@@ -145,6 +149,10 @@ body{
 #nav li{
     font-size: 14px;
     padding: 0;
+}
+
+.nav-container{
+    margin-bottom: auto;
 }
 
 .menu-item {
@@ -190,6 +198,8 @@ body{
     font-size: 15px;
     font-weight: 300;
 }
+
+
 
 /* ----------------------------------------Hover.css */
 
@@ -283,9 +293,9 @@ body{
 }
 }
 
-/* For Desktop*/
+/* For Tablet*/
 @media screen and (min-width: 600px){
-.personal-info {
+.personal-info-container {
     padding-top: 9%;
     padding-bottom: 10%;
 }
@@ -293,7 +303,15 @@ body{
 
 /* For Desktop*/
 @media screen and (min-width: 800px){
-.personal-info {
+.personal-info-container {
+    padding-top: 6%;
+    padding-bottom: 10%;
+}
+}
+
+/* For Desktop*/
+@media screen and (min-width: 800px){
+.portfolio-container {
     padding-top: 6%;
     padding-bottom: 10%;
 }
@@ -333,8 +351,9 @@ body{
     margin-top: 0;
 }
 }
+
 @media screen and (min-width: 768px){
-.center-btn{
+.center-btn {
     padding-top: 2%;
     -ms-transform: translateX(0%);
     transform: translateX(0%);
