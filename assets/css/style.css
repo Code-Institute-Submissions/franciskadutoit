@@ -202,12 +202,10 @@ body{
 /* ----------------------------------------Contact Page */
 
 .form-container{
-    padding-top: 10%;
+    
     padding-left: 5%;
     padding-right: 5%;
 }
-
-
 
 .contact-btn-container{
     position: relative;
@@ -347,6 +345,12 @@ body{
     padding-left: 25px;
 }
 }
+@media screen and (min-width: 768px){
+.form-container{
+    padding-top: 20% ;
+}
+}
+
 /* For Desktop*/
 @media screen and (min-width: 768px){
 .footer {
