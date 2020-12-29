@@ -199,14 +199,37 @@ body{
     font-weight: 300;
 }
 
+/* ----------------------------------------Contact Page */
+
+.form-container{
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
 
 
+
+.contact-btn-container{
+    position: relative;
+    padding-top: 2%;
+}
+
+
+#contact-btn{
+    background-color: #316879;
+    color: #fff;
+    border-radius: 8px;
+}
+
+#contact-btn:hover  {
+    background-color: #15343d;
+    color: white;
+}
 /* ----------------------------------------Hover.css */
 
 .hvr-sweep-to-bottom:before {
     background: rgba(0,0,0,0.2);
     height: 120px;
-
 }
 
 
