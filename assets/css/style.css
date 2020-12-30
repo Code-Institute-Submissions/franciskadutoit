@@ -306,6 +306,26 @@ body{
     font-size: 15px;
 }
 
+.bullet-icon .qualifications{
+    display: flex;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-align: center;
+    -webkit-box-flex: 0;
+    flex: 0 0 auto;
+    border: 1px solid #bfbfbf;
+    border-radius: 35px;
+    background-color: #fff;
+}
+
+.qualifications-text{
+    justify-content: left;
+}
+
 /* ----------------------------------------Contact Page */
 
 .form-container{
