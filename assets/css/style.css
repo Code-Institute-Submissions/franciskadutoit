@@ -260,7 +260,7 @@ body{
 
 /* image border styling from https://www.w3schools.com/howto/howto_css_border_image.asp */
 .timeline-event{
-    border: 5px solid #fff;
+    border: 6px solid #fff;
     border-radius: 50%;
     box-shadow: 0 1px 5px 0 #c4c2c2;
     margin-right: 5px;
@@ -306,25 +306,51 @@ body{
     font-size: 15px;
 }
 
-.bullet-icon .qualifications{
-    display: flex;
-    width: 25px;
-    height: 25px;
-    margin-right: 10px;
-    -webkit-box-pack: center;
-    justify-content: center;
-    align-items: center;
-    -webkit-box-align: center;
-    -webkit-box-flex: 0;
-    flex: 0 0 auto;
-    border: 1px solid #706d6d;
-    border-radius: 35px;
-    background-color: #fff;
+.about-heading{
+    font-size: medium;
+    padding-top: 10px;;
+}
+
+.about-text {
+    font-size: small;
+}
+
+.progress-container{
+    padding-top: 5px;;
+}
+
+.progress-heading{
+    font-size: small;
+}
+
+.bullet-qual {
+    display: block;
+    padding-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: #676767;
+    padding-top: 8px;
+    padding-right: 20%;
+}
+
+.bullet-qual-item{
+    border: 6px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 1px 5px 0 #c4c2c2;
+    margin-right: 2px;
+    margin-left: 2px;
+    
 }
 
 .qualifications-text{
-    justify-content: left;
+    color: #636363;
+    font-size: 12px;
+    font-weight: 200;
+    padding-top: 10px;
+    padding-left: 10%;
+
 }
+
 
 /* ----------------------------------------Contact Page */
 
