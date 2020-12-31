@@ -201,10 +201,12 @@ body{
 
 /* ----------------------------------------About Page */
 
+
 .about-info-container {
     padding-left: 8%;
     padding-right: 10%;
     text-align: center;
+    
 }
 
 .about-info-container, h1{
@@ -220,7 +222,7 @@ body{
 .project-timeline-container {
     position: relative;
     display: block;
-    padding: 35px;
+    padding: 15px;
     border: 1px solid #ddd;
     border-radius: 5px;
     color: #676767;
@@ -306,6 +308,14 @@ body{
     font-size: 15px;
 }
 
+.qualification-container{
+    position: relative;
+    display: block;
+    padding:15px;
+    
+    text-decoration: none;
+}
+
 .about-heading{
     font-size: medium;
     padding-top: 10px;;
@@ -316,7 +326,7 @@ body{
 }
 
 .progress-container{
-    padding-top: 5px;;
+    padding-top: 5px;
 }
 
 .progress-heading{
@@ -324,33 +334,46 @@ body{
 }
 
 .bullet-qual {
-    display: block;
+    display: flex;
     padding-bottom: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    color: #676767;
-    padding-top: 8px;
-    padding-right: 20%;
+    text-align: left;
 }
 
-.bullet-qual-item{
+.bullet-qual-icon{
+    display: flex;
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;
     border: 6px solid #fff;
     border-radius: 50%;
-    box-shadow: 0 1px 5px 0 #c4c2c2;
-    margin-right: 2px;
-    margin-left: 2px;
-    
+    background-color: #fff;
+    box-shadow: 0 1px 5px 0 #bfbfbf
 }
 
-.qualifications-text{
-    color: #636363;
-    font-size: 12px;
+.bullet-qual-text {
+    padding-top: 2%;
+    font-size: small;
     font-weight: 200;
-    padding-top: 10px;
-    padding-left: 10%;
+    padding-right: 30px;
+    text-align: left;
 
 }
 
+.cv-text{
+    font-size: 13px;
+    padding-top: 10%;
+}
+
+.cv-pdf{
+    font-size: 18px;
+    color: #316879;
+    text-align: center;
+    padding-left: 5px;
+
+}
 
 /* ----------------------------------------Contact Page */
 
@@ -491,6 +514,13 @@ body{
 }
 }
 
+@media screen and (min-width: 768px){
+.about-info-container {
+    padding-top: 6%;
+    padding-bottom: 10%;
+}
+}
+
 /* For Tablet*/
 @media screen and (min-width: 600px){
 .footer {
@@ -539,3 +569,4 @@ body{
     transform: translateX(0%);
 }
 }
+
