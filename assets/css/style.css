@@ -23,6 +23,7 @@ body {
     margin-left: 0%;
 }
 
+/* For Tablet*/
 @media screen and (min-width:700px) { 
     .hero-image-mobile {
         background-size: 60% ;
@@ -30,6 +31,7 @@ body {
     } 
 } 
 
+/* For Desktop*/
 @media screen and (min-width:990px) { 
     .hero-image-mobile {display: none;} 
 } 
@@ -43,12 +45,14 @@ body {
 
 /* hero image layout original credit : http://themes.2the.me/Node/1.0.4/index.html#) */
 /*To place image on left hand side of page */
+/* For Desktop*/
 @media (min-width: 992px){
 .hero-image, .personal-content {
     width: 50%;
 }
 }
 
+/* For Desktop*/
 /*To make sure image stays fixed image on left hand side for desktop view */
 @media (min-width: 992px){
 .hero-image {
@@ -94,12 +98,15 @@ body {
     margin: 0 0 0 30px;
 }
 
+/* For Desktop*/
 /*To place content on right hand side of page*/
 @media (min-width: 992px){
 .personal-content {
     float: right;
 }
 }
+
+/* For Desktop*/
 @media (min-width: 992px){
 .hero-image, .personal-content {
     width: 50%;
@@ -127,6 +134,7 @@ body {
     padding-left: 0px;
 }
 
+/* For Desktop*/
 @media (min-width: 992px){
     .personal-content{
         padding-top: 10%;
@@ -155,6 +163,7 @@ body {
     margin-left: -15px;
 }
 
+/* For Mobile*/
 @media (min-width: 300){
 .col-sm-12 {
     width: 100%;
@@ -172,12 +181,14 @@ h1, .about-heading {
     padding-left: 0%;
 }
 
+/* For Tablet*/
 @media screen and (min-width:700px) { 
     .h1, .about-heading {
         text-align: center;
     } 
 } 
 
+/* For Desktop*/
 @media screen and (min-width:990px) { 
     .h1, .about-heading {
         text-align: left;
@@ -225,6 +236,7 @@ h1, .about-heading {
     padding-bottom: 2%;
 }
 
+/* For Tablet*/
 @media (min-width: 700px){
 .about-btn-container {
     padding-left: 40%;
@@ -233,6 +245,7 @@ h1, .about-heading {
 }
 }
 
+/* For Desktop*/
 @media (min-width: 990px){
 .about-btn-container {
     padding-left: 35%;
@@ -272,6 +285,7 @@ h1, .about-heading {
     margin-bottom: 0%;
 }
 
+/* For Tablet*/
 @media (max-width: 600px){
     .quote-container{
         display: none;
@@ -294,29 +308,65 @@ h1, .about-heading {
     color: #636363;
 }
 
+/* For Desktop*/
 @media (min-width: 990px){
     .hero-image-footer-mobile{
         padding-top: 0px;
 }
 }
 
+/* For Desktop*/
 @media (min-width: 990px){
     .hero-image-footer-mobile{
         display: none;
 }
 }
 
-
 /* ----------------------------------------Portfolio Page */
 
 .portfolio-text-container{
-    padding-left: 8%;
-    padding-right: 10%;
+    padding-left: 0;
+    padding-right: 0;
     text-align: center;
+}
+
+/* For Tablet*/
+@media screen and (min-width: 700px){
+.portfolio-container {
+    padding-top: 6%;
+    padding-bottom: 10%;
+    max-width: none;
+}
+}
+
+/* For Desktop*/
+@media screen and (min-width: 990px){
+.portfolio-container {
+    padding-top: 6%;
+    padding-bottom: 10%;
+    padding-left: 10%;
+    max-width: none;
+}
 }
 
 .portfolio-heading{
     text-align: center;
+    padding-top: 5%;
+}
+
+/* For Desktop*/
+@media screen and (min-width: 990px){
+.portfolio-heading{
+    text-align: center;
+    padding-top: 5%;
+}
+}
+
+/* For Desktop*/
+@media screen and (min-width: 990px){
+.portfolio-paragraph{
+    padding-top: 5%;
+}
 }
 
 .menu-color-ui{
@@ -350,6 +400,7 @@ h1, .about-heading {
 
 .nav-container{
     margin-bottom: auto;
+    padding: 0px;
 }
 
 .menu-item {
@@ -365,13 +416,13 @@ h1, .about-heading {
     height: 120px;
 }
 
-.menu-item-ui {
+.menu-item-dark {
     height: 120px;
     text-align: center;
     padding: 0;
 }
 
-.menu-item-ui a {
+.menu-item-dark a {
     width: 100%;
     text-decoration: none;
     color: #fff;
@@ -387,7 +438,7 @@ h1, .about-heading {
     font-weight: 300;
 }
 
-.menu-item-ui span {
+.menu-item-dark span {
     display: block;
     width: 100%;
     padding-top: 50px;
@@ -610,30 +661,6 @@ h1, .about-heading {
 @media screen and (max-width: 600px){
 .quote-container {
     display: none;
-}
-}
-
-/* For Tablet*/
-@media screen and (min-width: 600px){
-.personal-info-container {
-    padding-top: 9%;
-    padding-bottom: 10%;
-}
-}
-
-/* For Desktop*/
-@media screen and (min-width: 800px){
-.personal-info-container {
-    padding-top: 6%;
-    padding-bottom: 10%;
-}
-}
-
-/* For Desktop*/
-@media screen and (min-width: 800px){
-.portfolio-container {
-    padding-top: 6%;
-    padding-bottom: 10%;
 }
 }
 
