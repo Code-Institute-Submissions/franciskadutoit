@@ -1,12 +1,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 
-body{
+body {
+    background-color: #ffffff;
     font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    
+    line-height: 1.8;
+    font-size: 15px;
+    color: #898989;
+    overflow-x: hidden;
+}
+
+/* ----------------------------------------Hero Image */
+
+.hero-image {
+    display: none;
+    background-position: 50% 0;
+    background-color: #222222;
     
 }
+
+/* hero image layout original credit : http://themes.2the.me/Node/1.0.4/index.html#) */
+/*To place image on left hand side of page */
+@media (min-width: 992px){
+.hero-image, .personal-content {
+    width: 50%;
+}
+}
+
+/*To make sure image stays fixed image on left hand side for desktop view */
+@media (min-width: 992px){
+.hero-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-size: cover;
+    display: block;
+    background-position: 50% 0;
+}
+}
+
+/*To position the list items in footer*/
+.hero-image-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 25px 50px;
+    background-color: rgba(56, 55, 55, 0.5);
+    
+}
+
+/*To style the list items in footer*/
+.social-list {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 10px;
+    color: #fff;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-list > li > a {
+    color: #fff;
+    font-size: 15px;
+}
+
+/*To make list horizontal & next to each other in footer*/
+.social-list > li {
+    display: inline-block;
+    margin: 0 0 0 30px;
+}
+
+
 
 .container-fluid{
     padding-left: 0px;
