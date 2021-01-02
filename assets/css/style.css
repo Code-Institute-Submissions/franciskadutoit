@@ -511,11 +511,10 @@ h1, .about-heading {
 /* image border styling from https://www.w3schools.com/howto/howto_css_border_image.asp */
 .timeline-event{
     border: 6px solid #fff;
-    border-radius: 50%;
+    border-radius: 100px;
     box-shadow: 0 1px 5px 0 #c4c2c2;
-    margin-right: 5px;
-    margin-left: 5px;
     transition: box-shadow 300ms ease, transform 300ms ease, -webkit-transform 300ms ease;
+    margin-right: 2%;
 }
 
 .tab-active {
@@ -566,7 +565,8 @@ h1, .about-heading {
 
 .about-heading{
     font-size: medium;
-    padding-top: 10px;;
+    padding-top: 10px;
+    text-align: center;
 }
 
 .about-text {
@@ -611,8 +611,18 @@ h1, .about-heading {
 }
 
 .cv-text{
-    font-size: 13px;
+    font-size: 12px;
     padding-top: 10%;
+    
+}
+
+/* For Desktop*/
+@media screen and (min-width: 990px){
+.cv-text{
+    font-size: 14px;
+    padding-top: 10%;
+    color: #1f1e1e;
+}
 }
 
 .cv-pdf{
@@ -658,59 +668,15 @@ h1, .about-heading {
 /* ----------------------------------------Media Queries */
 
 
-@media screen and (max-width: 600px){
-.quote-container {
-    display: none;
-}
-}
 
-@media screen and (min-width: 768px){
-.about-info-container {
-    padding-top: 6%;
-    padding-bottom: 10%;
-}
-}
 
-/* For Tablet*/
-@media screen and (min-width: 600px){
-.footer {
-    padding-right: 25px;
-    padding-left: 25px;
-}
-}
+
 @media screen and (min-width: 768px){
 .form-container{
     padding-top: 20% ;
 }
 }
 
-/* For Desktop*/
-@media screen and (min-width: 768px){
-.footer {
-    padding-right: 5%;
-    padding-left: 5%;
-    padding-top: 2%;
-    padding-bottom: 10%;
-}
-}
-
-/* For Tablet*/
-@media screen and (min-width: 600px){
-.footer-container {
-    padding-right: 25px;
-    padding-left: 25px;
-}
-}
-/* For Desktop*/
-@media screen and (min-width: 768px){
-.footer-container {
-    padding-right: 5%;
-    padding-left: 5%;
-    padding-top: 0;
-    padding-bottom: 0;
-    margin-top: 0;
-}
-}
 
 @media screen and (min-width: 768px){
 .center-btn {
