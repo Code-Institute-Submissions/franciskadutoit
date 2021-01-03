@@ -24,7 +24,7 @@ body {
 }
 
 /* For Tablet*/
-@media screen and (min-width:700px) { 
+@media screen and (min-width:600px) { 
     .hero-image-mobile {
         background-size: 60% ;
         background-color: #fff;
@@ -147,6 +147,14 @@ body {
     padding-top: 5%;
 }
 
+/* For Tablet*/
+@media screen and (min-width:600px) { 
+    .personal-content-container {
+        padding-top: 3%;
+        
+    } 
+} 
+
 .container-custom {
     max-width: 768px;
 }
@@ -182,9 +190,11 @@ h1, .about-heading {
 }
 
 /* For Tablet*/
-@media screen and (min-width:700px) { 
+@media screen and (min-width:600px) { 
     .h1, .about-heading {
         text-align: center;
+        font-size: x-large;
+        
     } 
 } 
 
@@ -192,6 +202,7 @@ h1, .about-heading {
 @media screen and (min-width:990px) { 
     .h1, .about-heading {
         text-align: left;
+        font-size: x-large;
     } 
 } 
 
@@ -237,10 +248,9 @@ h1, .about-heading {
 }
 
 /* For Tablet*/
-@media (min-width: 700px){
+@media (min-width: 600px){
 .about-btn-container {
     padding-left: 40%;
-    padding-right: 35%;
     padding-top: 5%;
 }
 }
@@ -331,7 +341,7 @@ h1, .about-heading {
 }
 
 /* For Tablet*/
-@media screen and (min-width: 700px){
+@media screen and (min-width: 600px){
 .portfolio-container {
     padding-top: 6%;
     padding-bottom: 10%;
@@ -451,10 +461,9 @@ h1, .about-heading {
 
 
 .about-info-container {
-    padding-left: 8%;
-    padding-right: 10%;
+    padding-left: 4%;
+    padding-right: 4%;
     text-align: center;
-    
 }
 
 .about-info-container, h1{
@@ -464,13 +473,14 @@ h1, .about-heading {
 .about-info-container, p{
     font-weight: 200;
     font-size: medium;
+    
 }
 
 /*original code credit for project timeline list: https://austinknight.com/ */
 .project-timeline-container {
     position: relative;
     display: block;
-    padding: 15px;
+    padding: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
     color: #676767;
@@ -484,9 +494,44 @@ h1, .about-heading {
     -ms-flex: 0 auto;
     flex: 0 auto;
     color: #636363;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 15px;
     text-align: center;
+    padding-left: 5%;
+}
+
+/* For Tablet*/
+@media (min-width: 500px) and (max-width: 900px){
+    .project-timeline-heading {
+    position: relative;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+    color: #636363;
+    font-size: 16px;
+    line-height: 15px;
+    text-align: center;
+    padding-left: 10%;
+    padding-top: 2%;
+}
+}
+
+/* For Desktop*/
+@media (min-width: 990px){
+    .project-timeline-heading {
+    position: relative;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+    color: #636363;
+    font-size: 16px;
+    line-height: 15px;
+    text-align: center;
+    padding-left: 10%;
+    padding-top: 2%;
+}
 }
 
 .timeline-line {
@@ -502,32 +547,74 @@ h1, .about-heading {
     margin-top: -22px;
 }
 
-.project-list {
-    justify-content: space-between;
-    padding-bottom: 35px;
-    margin-left: 0px;
-}
-
 /* image border styling from https://www.w3schools.com/howto/howto_css_border_image.asp */
 .timeline-event{
-    border: 6px solid #fff;
+    border: 7px solid #fff;
+    border-style: none;
     border-radius: 100px;
     box-shadow: 0 1px 5px 0 #c4c2c2;
     transition: box-shadow 300ms ease, transform 300ms ease, -webkit-transform 300ms ease;
-    margin-right: 2%;
+    margin-right: 1%;
+    margin-left: 2%;
 }
 
 .tab-active {
     display: block;
 }
 
-.ai-work-thumb {
+.list-group {
+    padding-left: 0;
+    margin-bottom: 0;
+    border-radius: 1px;
+    flex-direction: row;
+}
+
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: #fff;
+    border-color: #fff;
+    
+}
+
+.list-group-item {
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+    padding:9px;
+}
+
+.list-group .list-group-item:first-child {
+    border-radius: 100px;
+}
+
+.list-group-item+.list-group-item {
+    border-radius: 100px;
+}
+
+.list-group .list-group-item:last-child {
+    border-radius: 100px;
+}
+
+.project-img {
     height: 150px;
     margin-top: 4px;
     border: 1px solid #ddd;
     border-radius: 5px;
     background-position: 0px 0px;
     background-size: cover;
+}
+
+/* For Tablet*/
+@media (min-width: 500px) and (max-width: 900px){
+    .project-img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        background: no-repeat;
+        background-size: cover;
+        margin-top: 2%;
+}
 }
 
 .timeline-year {
@@ -555,6 +642,7 @@ h1, .about-heading {
     font-size: 15px;
 }
 
+/*Qualification section*/
 .qualification-container{
     position: relative;
     display: block;
@@ -563,13 +651,13 @@ h1, .about-heading {
     text-decoration: none;
 }
 
-.about-heading{
+.qual-heading{
     font-size: medium;
     padding-top: 10px;
     text-align: center;
 }
 
-.about-text {
+.qual-text {
     font-size: small;
 }
 

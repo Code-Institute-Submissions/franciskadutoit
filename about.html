@@ -81,35 +81,37 @@
                                 <h1 class="project-timeline-heading" >
                                 What I have been up to
                                 </h1>
-                            <!-- original code credit for list: https://austinknight.com/ ---------->
+                            <!-- original code credit for list: https://austinknight.com/ and  https://getbootstrap.com/docs/4.0/components/list-group/ with customisation---------->
                                 <div class="timeline-line"></div>
                             <!-- Project timeline ------->
                                     <div class="project-timeline-tab">
-                                        <div class="project-list" role="tablist">
-                                            <a data-w-tab="Project Synergy at Sanlam" class="timeline-event inline-block tab-link"  href="#w-tabs-0-data-w-pane-0" role="tab" aria-controls="w-tabs-0-data-w-pane-0" aria-selected="false">
-                                            <img src="assets/images/franciska_du_toit_sanlam-project.png" width="25" alt="">
+                                        <div class="project-list list-group" id="list-tab" role="tablist">
+                                            <a class="timeline-event inline-block tab-link list-group-item list-group-item-action active"
+                                            id="list-home-list"  href="#list-home" role="tab" data-toggle="list" aria-controls="home">
+                                                <img src="assets/images/franciska_du_toit_sanlam-project.png" width="25" alt="">
                                             </a>
-                                            <a data-w-tab="Fincede Business Website" class="timeline-event inline-block tab-link" tabindex="-1"  href="#w-tabs-0-data-w-pane-1" role="tab" aria-controls="w-tabs-0-data-w-pane-1" aria-selected="false">
-                                            <img src="assets/images/franciska_du_toit_fincede-project.png" width="25" alt="">
+                                            <a class="timeline-event inline-block tab-link list-group-item list-group-item-action" id="list-profile-list" data-toggle="list"  href="#list-profile" role="tab" aria-controls="profile">
+                                                <img src="assets/images/franciska_du_toit_fincede-project.png" width="25" alt="">
                                             </a>
-                                            <a data-w-tab="Project Conversations with Clients at Sanlam" class="timeline-event inline-block tab-link" tabindex="-1" href="#w-tabs-0-data-w-pane-2" role="tab" aria-controls="w-tabs-0-data-w-pane-2" aria-selected="false">
-                                            <img src="assets/images/franciska_du_toit_sanlam-project.png" width="25" alt="">
+                                            <a  class="timeline-event inline-block tab-link list-group-item list-group-item-action" id="list-messages-list"  href="#list-messages" data-toggle="list" role="tab" aria-controls="messages">
+                                                <img src="assets/images/franciska_du_toit_sanlam-project.png" width="25" alt="">
                                             </a>
-                                            <a data-w-tab="Leasing Hub at Quadient" class="timeline-event inline-block tab-link" tabindex="-1" href="#w-tabs-0-data-w-pane-3" role="tab" aria-controls="w-tabs-0-data-w-pane-3" aria-selected="false">
+                                            <a class="timeline-event inline-block tab-link list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">
                                             <img src="assets/images/franciska_du_toit_quadient-project.png" width="25" alt="">
                                             </a>
-                                            <a data-w-tab="Fly UX for UX Institute Course" class="timeline-event inline-block tab-link" tabindex="-1" href="#w-tabs-0-data-w-pane-4" role="tab" aria-controls="w-tabs-0-data-w-pane-4" aria-selected="false">
+                                            <a class="timeline-event inline-block tab-link list-group-item list-group-item-action" id="list-contact-list" data-toggle="list" href="#list-contact" role="tab" aria-controls="contact">
                                             <img src="assets/images/franciska_du_toit_flyux-project.png" width="25" alt="">
                                             </a>
                                         </div>
                                     </div>
                         <!-- Project timeline --------->
                         <!-- Project timeline detail -->
-                                    <div class="project-content">
-                                        <div data-w-tab="Sanlam Synergy Project" class="tab-pane tab-active" id="w-tabs-0-data-w-pane-0" role="tabpanel" aria-labelledby="w-tabs-0-data-w-tab-0" style="opacity: 1; transition: opacity 300ms ease-in-out 0s;">
+                                    <div class="project-content tab-content" id="nav-tabContent">
+                                        <!--Synergy Project-->
+                                        <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list" style="opacity: 1; transition: opacity 300ms ease-in-out 0s;">
                                             <div class="row">
                                                 <div class="col-12">
-                                                    <div class="ai-work-thumb" style="background-image: url(assets/images/franciska_du_toit_sanlam-synergy-project-image.png);">
+                                                    <div class="project-img" style="background-image: url(assets/images/franciska_du_toit_sanlam-synergy-project-image.png);">
                                                     </div>
                                                 </div>
                                                 <div class="col-12">
@@ -122,10 +124,12 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div data-w-tab="Fincede Business Website" class="tab-pane tab-active" id="w-tabs-0-data-w-pane-1" role="tabpanel" aria-labelledby="w-tabs-0-data-w-tab-1" style="opacity: 1; transition: opacity 300ms ease-in-out 0s;">
+                                        <!--Synergy Project End-->
+                                        <!--Fincede Project ----->
+                                        <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list" style="opacity: 1; transition: opacity 300ms ease-in-out 0s;">
                                             <div class="row">
                                                 <div class="col-12">
-                                                    <div class="ai-work-thumb" style="background-image: url(assets/images/franciska_du_toit_fincede-project-image.png);">
+                                                    <div class="project-img" style="background-image: url(assets/images/franciska_du_toit_fincede-project-image.png);">
                                                     </div>
                                                 </div>
                                                 <div class="col-12">
@@ -138,55 +142,62 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    <div data-w-tab="Sanlam Conversations with Clients Project" class="tab-pane tab-active" id="w-tabs-0-data-w-pane-2" role="tabpanel" aria-labelledby="w-tabs-0-data-w-tab-2" style="opacity: 1; transition: opacity 300ms ease-in-out 0s;">
-                                        <div class="row">
-                                            <div class="col-12">
-                                                <div class="ai-work-thumb" style="background-image: url(assets/images/franciska_du_toit_sanlam-conversations-project-image.png);">
+                                        <!--Fincede Project End ------->
+                                        <!--Conversations Project ----->
+                                        <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list" style="opacity: 1; transition: opacity 300ms ease-in-out 0s;">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="project-img" style="background-image: url(assets/images/franciska_du_toit_sanlam-conversations-project-image.png);">
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="timeline-year">2018 • Cape Town, South Africa
+                                                    </div>
+                                                    <h3 class="project-title">Sanlam Conversations with Clients Project
+                                                    </h3>
+                                                    <p class="project-title-text">A colleague and I started a webinar series about topical issues in the financial industry and we reached over a 1000 people. I also designed the marketing material for the series. 
+                                                    </p>
                                                 </div>
                                             </div>
-                                            <div class="col-12">
-                                                <div class="timeline-year">2018 • Cape Town, South Africa
+                                        </div> 
+                                        <!--Conversations Project End -->
+                                        <!--Leasing Hub ---------------->
+                                        <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list" style="opacity: 1; transition: opacity 300ms ease-in-out 0s;">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="project-img" style="background-image: url(assets/images/franciska_du_toit_leasehub-project.png);">
+                                                    </div>
                                                 </div>
-                                                <h3 class="project-title">Sanlam Conversations with Clients Project
-                                                </h3>
-                                                <p class="project-title-text">A colleague and I started a webinar series about topical issues in the financial industry and we reached over a 1000 people. I also designed the marketing material for the series. 
-                                                </p>
+                                                <div class="col-12">
+                                                    <div class="timeline-year">2020 • Dublin, Ireland
+                                                    </div>
+                                                    <h3 class="project-title">Leasing Hub at Quadient
+                                                    </h3>
+                                                    <p class="project-title-text">I designed and developed a sharepoint site as a central hub for information and learning material for account managers. I also wrote a few articles for the site and designed the marketing material. 
+                                                    </p>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div> 
-                                    <div data-w-tab="Leasing Hub at Quadient" class="tab-pane tab-active" id="w-tabs-0-data-w-pane-3" role="tabpanel" aria-labelledby="w-tabs-0-data-w-tab-3" style="opacity: 1; transition: opacity 300ms ease-in-out 0s;">
-                                        <div class="row">
-                                            <div class="col-12">
-                                                <div class="ai-work-thumb" style="background-image: url(assets/images/franciska_du_toit_leasehub-project.png);">
+                                        <!--Leasing Hub End -------------->
+                                        <!--Fly UX ----------------------->
+                                        <div class="tab-pane fade" id="list-contact" role="tabpanel" aria-labelledby="list-contact-list" style="opacity: 1; transition: opacity 300ms ease-in-out 0s;">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="project-img" style="background-image: url(assets/images/franciska_du_toit_flyuxmobile-project.png);">
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="col-12">
-                                                <div class="timeline-year">2020 • Dublin, Ireland
+                                                <div class="col-12">
+                                                    <div class="timeline-year">2020 • Dublin, Ireland
+                                                    </div>
+                                                    <h3 class="project-title">Fly UX for UX Institute Course
+                                                    </h3>
+                                                    <p class="project-title-text">As part of the UXDI course, I did a case study as a UX researcher & designer for an airline booking app. This redesign case study was an opportunity to improve the experience users have today with airline booking apps. 
+                                                    </p>
                                                 </div>
-                                                <h3 class="project-title">Leasing Hub at Quadient
-                                                </h3>
-                                                <p class="project-title-text">I designed and developed a sharepoint site as a central hub for information and learning material for account managers. I also wrote a few articles for the site and designed the marketing material. 
-                                                </p>
                                             </div>
                                         </div>
+                                        <!--Fly UX End -------------------->    
                                     </div>
-                                    <div data-w-tab="Fly UX for UX Institute Course" class="tab-pane tab-active" id="w-tabs-0-data-w-pane-4" role="tabpanel" aria-labelledby="w-tabs-0-data-w-tab-4" style="opacity: 1; transition: opacity 300ms ease-in-out 0s;">
-                                        <div class="row">
-                                            <div class="col-12">
-                                                <div class="ai-work-thumb" style="background-image: url(assets/images/franciska_du_toit_flyuxmobile-project.png);">
-                                                </div>
-                                            </div>
-                                            <div class="col-12">
-                                                <div class="timeline-year">2020 • Dublin, Ireland
-                                                </div>
-                                                <h3 class="project-title">Fly UX for UX Institute Course
-                                                </h3>
-                                                <p class="project-title-text">As part of the UXDI course, I did a case study as a UX researcher & designer for an airline booking app. This redesign case study was an opportunity to improve the experience users have today with airline booking apps. 
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>    
-                                </div>
                         <!-- Project timeline detail end -->
                         <!-- Go to projects button -------->
                                 <div class="btn-container">
@@ -202,10 +213,10 @@
                     <!-- Qualifications --->
                             <div class="qualification-container">
                                 <div>
-                                    <h1 class="about-heading" >
+                                    <h1 class="qual-heading" >
                                     Fields of Study
                                     </h1>
-                                    <p class="about-text">
+                                    <p class="qual-text">
                                     I enjoy to learn and exploring different fields!
                                     </p>
                                 <!-- Qualifications in-progress--->
