@@ -264,19 +264,34 @@ h1, .about-heading {
 }
 }
 
-.list-group-item-secondary {
+.btn{
     color: #fff;
     background-color: #316879;
     border: 1px solid rgba(0,0,0,.125);
+    border-radius: 8px;
+    
+} 
+
+.btn:hover{
+    color: #fff;
+    background-color: #214b58;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 8px;
+    
+} 
+
+.btn a {
+    background-color: transparent;
+}
+
+.list-btn-item-secondary {
+    color: #fff;
+    background-color: #316879;
+    text-decoration: none;
     
 }
 
-.list-group .list-group-item:last-child {
-    border-radius: 8px;
-}
-
-.list-group-item-secondary:hover{
-    background-color: #70888f;
+.list-btn-item-secondary:hover{
     color: #ffff;
 }
 
@@ -572,8 +587,8 @@ h1, .about-heading {
 .list-group-item.active {
     z-index: 2;
     color: #fff;
+    border-color: #316879;
     background-color: #fff;
-    border-color: #fff;
     
 }
 
