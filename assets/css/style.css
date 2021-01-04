@@ -178,20 +178,20 @@ body {
 }
 }
 
-h1, .h1 {
+h2, .h2 {
     font-size: 25px;
     color: #1f1e1e;
     letter-spacing: 1px;
 }
 
-h1, .about-heading {
+h2, .about-heading {
     padding-right: 5%;
     padding-left: 0%;
 }
 
 /* For Tablet*/
 @media screen and (min-width:600px) { 
-    .h1, .about-heading {
+    .h2, .about-heading {
         text-align: center;
         font-size: x-large;
         
@@ -200,7 +200,7 @@ h1, .about-heading {
 
 /* For Desktop*/
 @media screen and (min-width:990px) { 
-    .h1, .about-heading {
+    .h2, .about-heading {
         text-align: left;
         font-size: x-large;
     } 
@@ -475,7 +475,7 @@ h1, .about-heading {
     text-align: center;
 }
 
-.about-info-container, h1{
+.about-info-container, h2{
     font-size: large;
 }
 
