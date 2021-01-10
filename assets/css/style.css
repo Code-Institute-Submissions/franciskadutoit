@@ -11,6 +11,10 @@ body {
     margin-bottom: 10%;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* ----------------------------------------Hero Image */
 
 .hero-image-mobile {
