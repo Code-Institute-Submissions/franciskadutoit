@@ -431,7 +431,7 @@ html {
     
 }
 
-/*original code credit for project timeline list: https://austinknight.com/ */
+/*original code credit for project timeline list and line: https://austinknight.com/ */
 .project-timeline-container {
     position: relative;
     display: block;
@@ -485,43 +485,118 @@ html {
     background-image: linear-gradient(90deg, hsla(0, 0%, 86.7%, 0) 1%, #ddd 12%);
 }
 
-.project-timeline-tab{
-    margin-top: -22px;
-}
 
-/* image border styling from https://www.w3schools.com/howto/howto_css_border_image.asp */
+/* image border styling from https://www.w3schools.com/howto/howto_css_border_image.asp and https://austinknight.com/ */
 .timeline-event{
-    border: 7px solid #fff;
+    padding: 9px;
     border-style: none;
     border-radius: 100px;
-    box-shadow: 0px 1px 5px 0px #c4c2c2;
-    margin-right: 1%;
-    margin-left: 2%;
+    background-color: #fff;
+    box-shadow: 0 1px 5px 0 #dadada;
+    -webkit-transition: box-shadow 300ms ease, -webkit-transform 300ms ease;
+    transition: box-shadow 300ms ease, -webkit-transform 300ms ease;
+    transition: box-shadow 300ms ease, transform 300ms ease;
+    transition: box-shadow 300ms ease, transform 300ms ease, -webkit-transform 300ms ease;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 6px;
 }
+
+@media (min-width: 700px){
+    .timeline-event {
+    border-style: none;
+    border-radius: 100px;
+    background-color: #fff;
+    box-shadow: 0 1px 5px 0 #dadada;
+    margin-right: 70px;
+    margin-left: 10px;
+    
+}
+}
+
+@media (min-width: 990px){
+    .timeline-event{
+    padding: 9px;
+    border-style: none;
+    border-radius: 100px;
+    background-color: #fff;
+    box-shadow: 0 1px 5px 0 #dadada;
+    -webkit-transition: box-shadow 300ms ease, -webkit-transform 300ms ease;
+    transition: box-shadow 300ms ease, -webkit-transform 300ms ease;
+    transition: box-shadow 300ms ease, transform 300ms ease;
+    transition: box-shadow 300ms ease, transform 300ms ease, -webkit-transform 300ms ease;
+}
+}
+
 
 .tab-active {
     display: block;
 }
 
-.list-group {
-    padding-left: 0px;
-    margin-bottom: 0px;
-    border-radius: 1px;
+
+.container .list-group{
+    display: flex; 
     flex-direction: row;
+    align-items:center;
+    justify-content: space-evenly;
+    
+}
+
+
+@media (min-width: 768px){
+.list-group {
+    margin-left:0px;
+}
+}
+
+@media (min-width: 1025px){
+.list-group {
+    margin-left: 80px;
+    margin-right: 80px;
+}
 }
 
 .list-group-item.active {
-    z-index: 2;
-    color: #cccccc;
-    border-color: #316879;
+    border-style: none;
+    border-radius: 100px;
     background-color: #fff;
+}
+
+.list-group-item-action{
+    padding-right: 0px;
+    margin-right: 0px;
+    max-width: 50px;
+    
+}
+
+.list-group-item-action{
+    padding-right: 0px;
+    margin-right: 0px;
+    max-width: 50px;
     
 }
 
 .list-group-item {
     background-color: #fff;
-    border: 1px solid rgba(0,0,0,.125);
-    padding:9px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-left: 3.5%;
+    padding-right: 2%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-style: none;
+    border-radius: 100px;
+    background-color: #fff;
+    box-shadow: 0 1px 5px 0 #dadada;
+    
+}
+
+@media (min-width: 700px){
+    .list-group-item {
+    background-color: #fff;
+    padding: 14px;
+    box-shadow: 0 1px 5px 0 #9c9b9b;
+    }
 }
 
 .list-group .list-group-item:first-child {
@@ -536,13 +611,15 @@ html {
     border-radius: 100px;
 }
 
+.cpy-img{
+    display: inline-block;
+    max-width: 100%;
+}
+
 .project-img {
-    height: 150px;
-    margin-top: 4px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    background-position: 0px 0px;
-    background-size: cover;
+    width: 70%;
+    margin-top: 10%;
+    margin-left: 15%;
 }
 
 /* For Tablet*/
@@ -551,10 +628,10 @@ html {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
+        width: 60%;
         background: no-repeat;
         background-size: cover;
-        margin-top: 2%;
+        margin-top: 10%;
 }
 }
 
