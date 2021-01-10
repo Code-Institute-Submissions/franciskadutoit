@@ -15,6 +15,34 @@ html {
     scroll-behavior: smooth;
 }
 
+.row {
+    margin-top: -25px;
+    margin-bottom: -10px
+}
+
+/* ----------------------------------------Nav Bar */
+.site-header .navbar{
+	background-color: rgba(0,0,0,.5);
+}
+
+.navbar-dark .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(56, 55, 55, 0.5);
+}
+
+.dropdown-menu {
+    background-color: #222222;
+    
+}
+.navbar .dropdown-menu a:not(.active) {
+    color: #e6e3e3;
+}
+
+.navbar .dropdown-menu a:hover{
+    color: #857777;
+}
+
+
 /* ----------------------------------------Hero Image */
 
 .hero-image-mobile {
