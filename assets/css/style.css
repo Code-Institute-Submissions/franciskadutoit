@@ -126,9 +126,16 @@ html {
     padding-top: 15px;
 }
 
-
-/
-
+/* --------------------------------------- Content Section */
+/*For Desktop*/
+@media (min-width: 1000px) {
+    .split-content{
+    margin-left: 50%;
+    margin-top: 0%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+}
 
 /* ----------------------------------------Home page */
 
