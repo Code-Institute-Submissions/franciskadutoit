@@ -54,7 +54,7 @@ Each page features a responsive **navigation bar** at the top with conventional 
 * For Mobile - Hamburger menu so that the screen does not look to crowded. The menu would collaps when tapped.
 * For Tablet - I decided to have the full menu navigation bar at the top of the screen as there is more space on a tablet 
 * For Desktop - Full navigation menu at the top of the main menu items: Home, Portfolio, About and Contact
-Each page has a **footer** with **social media icons** linking to 4 Franciska Du Toit’s social media pages.
+Each page has **social media icons** linking to 4 Franciska Du Toit’s social media pages.
 Each page features a hero image. On mobile and tablet devices the static hero image is at the top with the text at the bottom. On desktops the static hero image moves to the left and takes up 50% of the page. The content takes up 50% on the other side of the screen.
 
 ### Home
