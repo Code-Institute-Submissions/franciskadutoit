@@ -139,96 +139,64 @@ html {
 
 /* ----------------------------------------Home page */
 
-.personal-content {
-    padding-top: 70px;
-    padding-bottom: 0px;
-    padding-right: 0px;
-    padding-left: 0px;
+.intro-content{
+    padding-top: 20%;
+    padding-bottom: 5%;
 }
 
-.personal-section {
-    background-color: #ffffff;
-    background-position: 50% 0%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 10px;
-    padding-left: 0px;
-}
-
-/* For Desktop*/
-@media (min-width: 992px){
-    .personal-content{
+/* For Tablet*/
+@media screen and (min-width:600px) { 
+    .intro-content {
         padding-top: 10%;
-        padding-right: 0px;
-        padding-left: 5%;
-    }
-}
-
-.personal-content-container{
-    padding-top: 5%;
-}
-
-/* For Tablet*/
-@media screen and (min-width:600px) { 
-    .personal-content-container {
-        padding-top: 3%;
-        
-    } 
-} 
-
-.container-custom {
-    max-width: 768px;
-}
-
-.container-fluid {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.row {
-    margin-right: -15px;
-    margin-left: -15px;
-}
-
-/* For Mobile*/
-@media (min-width: 300px){
-.col-sm-12 {
-    width: 100%;
-}
-}
-
-h2, .h2 {
-    font-size: 25px;
-    color: #1f1e1e;
-    letter-spacing: 1px;
-}
-
-h2, .about-heading {
-    padding-right: 5%;
-    padding-left: 0%;
-}
-
-/* For Tablet*/
-@media screen and (min-width:600px) { 
-    .h2, .about-heading {
-        text-align: center;
-        font-size: x-large;
-        
+        padding-bottom: 5%;
     } 
 } 
 
 /* For Desktop*/
 @media screen and (min-width:990px) { 
-    .h2, .about-heading {
-        text-align: left;
-        font-size: x-large;
+    .intro-content {
+        padding-top: 20%;
+        padding-bottom: 5%;
+
     } 
 } 
+
+.home-heading {
+    font-size: 29px;
+    color: #1f1e1e;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.home-heading {
+    padding-right: 1%;
+}
+
+/* For Tablet*/
+@media (min-width:600px) { 
+    h1, .about-heading {
+    font-size: revert;
+    line-height: 1.4;
+    font-weight: 300;
+    color: #222222;
+    } 
+} 
+
+/* For Desktop*/
+@media (min-width:800px) { 
+    h1 .home-heading  {
+        text-align: left;
+        font-size: 100px;
+    } 
+    p {
+        padding-bottom: 5%;
+    }
+} 
+
+.bullet-list{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
 
 /* To style bullets */
 /* original code credit for bullets: https://austinknight.com/ */
@@ -260,7 +228,7 @@ h2, .about-heading {
 
 /*To style button content */
 .about-btn-container{
-    padding-left: 28%;
+    padding-left: 25%;
     padding-top: 2%;
     padding-bottom: 2%;
 }
@@ -268,7 +236,7 @@ h2, .about-heading {
 /* For Tablet*/
 @media (min-width: 600px){
 .about-btn-container {
-    padding-left: 40%;
+    padding-left: 35%;
     padding-top: 5%;
 }
 }
@@ -278,7 +246,7 @@ h2, .about-heading {
 .about-btn-container {
     padding-left: 35%;
     padding-right: 0%;
-    padding-top: 5%;
+    padding-top: 2%;
 }
 }
 
@@ -313,9 +281,10 @@ h2, .about-heading {
     color: #ffff;
 }
 
+
 /* To style home page quote */
 .quote-container {
-    padding-top: 0%;
+    padding-top: 5%;
     margin-bottom: 0px;
     font-size: x-small;
 }
@@ -330,36 +299,6 @@ h2, .about-heading {
 /* For Tablet*/
 @media (max-width: 600px){
     .quote-container{
-        display: none;
-}
-}
-
-.hero-image-footer-mobile {
-    position: relative;
-    bottom: 0px;
-    width: 100%;
-    padding-right: 20px;
-    padding-left: 0px;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    text-align: center;
-    color: #636363;
-}
-
-.hero-image-footer-mobile .social-list > li > a { 
-    color: #636363;
-}
-
-/* For Desktop*/
-@media (min-width: 990px){
-    .hero-image-footer-mobile{
-        padding-top: 0px;
-}
-}
-
-/* For Desktop*/
-@media (min-width: 990px){
-    .hero-image-footer-mobile{
         display: none;
 }
 }
