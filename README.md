@@ -39,10 +39,13 @@ This website is for users interested in information about Franciska Du Toit incl
 * As an interested follower and observer, I want to follow Franciska Du Toit on social media, so I can keep up with her latest news.
 
 ### Wireframe mockups: 
-- [Home](assets/wireframes/Home_Page_Wireframe.png)
-- [Portfolio](assets/wireframes/Portfolio_Page_Wireframe.png)
-- [About](assets/wireframes/About_Page_Wireframe.png)
-- [Contact](assets/wireframes/Contact_Page_Wireframe.png)
+- [Home](assets/wireframes/Wireframe_Home_Page.png)
+- [About](assets/wireframes/Wireframe_About_Page.png)
+- [Contact](assets/wireframes/Wireframe_Contact_Page.png)
+- [UI Projects Page](assets/wireframes/Wireframe_ui_Page.png)
+- [UX Case Studies Page](assets/wireframes/Wireframe_ux_Page.png)
+- [Developer Projects Page](assets/wireframes/Wireframe_Developer_Page.png)
+- [Other Project Page](assets/wireframes/Wireframe_other_Page.png)
 
 ## Features
 
