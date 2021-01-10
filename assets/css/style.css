@@ -303,6 +303,114 @@ html {
 }
 }
 
+/* To style portfolio section */
+.portfolio-heading{
+    padding-top: 10%;
+    font-size: revert;
+    line-height: 1.4;
+    font-weight: 300;
+    color: #222222;
+    text-align: left;
+    padding-left: 3%;
+}
+
+.portfolio-paragraph{
+    text-align: left;
+    padding-left: 3%;
+}
+
+/* Original credit: Code Institute Lessons on UCD Resume */
+.blocks{
+    padding-top:10%;
+}
+
+/* For Desktop*/
+@media (min-width: 990px){
+.blocks{
+    padding-top:5%;
+}
+}
+
+.menu-color-ui{
+    background-color: #316879;
+}
+.menu-color-ux{
+    background-color: #f47a60;
+}
+.menu-color-code{
+    background-color: #7fe7dc;
+}
+.menu-color-other{
+    background-color: #ced7d8;
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right: 0px;
+}
+
+.menucontainer {
+    font-size: 0px;
+}
+
+#nav {
+    margin: 0px;
+}
+
+#nav li{
+    font-size: 14px;
+    padding: 0px;
+}
+
+.nav-container{
+    margin-bottom: auto;
+    padding: 0px;
+    padding-bottom: 10%;
+}
+
+.menu-item {
+    height: 120px;
+    text-align: center;
+    padding: 0px;
+}
+
+.menu-item a {
+    width: 100%;
+    text-decoration: none;
+    color: #555555;
+    height: 120px;
+}
+
+.menu-item-dark {
+    height: 120px;
+    text-align: center;
+    padding: 0px;
+}
+
+.menu-item-dark a {
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    height: 120px;
+}
+
+.menu-item span {
+    display: block;
+    width: 100%;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.menu-item-dark span {
+    display: block;
+    width: 100%;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+}
+
 /* ----------------------------------------Portfolio Page */
 
 .portfolio-text-container{
