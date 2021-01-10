@@ -60,16 +60,13 @@ Each page features a hero image. On mobile and tablet devices the static hero im
 ### Home
 There is a **call to action button** to take the user directly to the **About page**.
 There are 4 **list items** to give a short overview of who Franciska Du Toit is.
-
-### Portfolio
-The Portfolio page has 4 **sub-menu items** laid out in **columns**, 2 columns wide for all devices.
+The Portfolio section has 4 **sub-menu items** laid out in **columns**, 2 columns wide for all devices.
 Each item is square which is animated by using a hover effect that will sweep down when the user’s mouse hover over them. 
 Each item can be clicked to take the user to the respective submenu item pages.
 
 ### About
 The About page includes copy about the Franciska Du Toit.
 The page also has a list with 5 **project list items** which if clicked will reveal more information on the project. 
-There is also a **call to action button** to guide the user to see all the projects by Franciska Du Toit
 There is also a feature on Franciska Du Toit’s qualifications which has 2 sections for In Progress which only has 1 list item and Completed which has 4 list items.
 Lastly, there is also a download icon to indicate to the user that they can download a pdf version of her CV. There is then a link to the pdf document for the user to make it more convenient to read or print.
 
@@ -84,12 +81,11 @@ At the bottom of the form, clients can click on the button to send a **message v
 - Logo - Features on all the pages and allows the user to easily recognise the brand of Franciska Du Toit. If the user clicks on the logo, it will return the users to the home page as they would expect.
 - Navigation Bar - Features on all the pages and allows the user to easily navigate the website's pages and find what they are looking for with ease and speed.
 
-#### Footer 
+#### Social Banner
 - Social Icons - Features on all the pages and allows the user to access the social platforms that Franciska Du Toit uses.
 
 #### Specific Pages
-- [Home Page](index.html) - Allows the user to see a quick snapshot of who is Franciska Du Toit
-- [Portfolio Page](portfolio.html) - Allows the user to see a high level page to navigate them to specific projects in her portfolio
+- [Home Page](index.html) - Allows the user to see a quick snapshot of who is Franciska Du Toit. It also allows the user to see a high level page to navigate them to specific projects in her portfolio
 - [About Page](about.html) - Allows the user to connect with Franciska Du Toit by providing a snapshot of information of her CV but also providing the option to download a more detailed pdf version.
 - [Contact Form](contact.html) - Allows the user to get in contact or ask questions in two ways: by entering the form or connecting to LinkedIn.
 
