@@ -921,6 +921,23 @@ h2, .ui-subheading{
     font-size: small;
 }}
 
+/* -----------------------------------Other Projects Page */
+
+.sub-paragraph{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+
+.other-subheading{
+    margin-top: 10%;
+}
+
+.code-text{
+    text-align: center;
+    padding-bottom: 0px;
+}
+
 /* ----------------------------------------Hover.css */
 
 .hvr-sweep-to-bottom:before {
