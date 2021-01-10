@@ -110,6 +110,8 @@ At the bottom of the form, clients can click on the button to send a **message v
     - The project uses **Google fonts** to style the website fonts.
 - [jQuery](https://jquery.com/)
     - The project uses **jQuery** to reference Javascript needed for the responsive navbar,
+- [Hover.css CDN](https://cdnjs.com/libraries/hover.css/2.1.0)
+    - The project uses **Hover.css** to apply hover effects to the projects navbar.
 
 ## Testing
 
