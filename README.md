@@ -154,10 +154,12 @@ In addition, if it is not obvious, you should also describe how to run your code
 - All the photos used in this site were obtained from Franciska Du Toit
 
 ### Code
-- HTML originally taken from ...
-- CSS originally taken from...
+- HTML for the navbar originally taken from Bootstrap
+- HTML for the list and timeline  originally taken from https://austinknight.com/
+- CSS for the list and timeline originally taken from https://austinknight.com/
+- CSS fo image border styling originally taken from from https://www.w3schools.com/howto/howto_css_border_image.asp
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
-I received inspiration for this project from my own experience of building and maintaining a WordPress website for my personal website for the past few years.
+- I received inspiration for this project from my own experience of building and maintaining a WordPress website for my personal website for the past few years.
+- My mentor suggested that I move the project navbar to the home page to get more impactful info on the home page.
