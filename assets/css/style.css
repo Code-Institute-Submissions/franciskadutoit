@@ -431,6 +431,14 @@ html {
     
 }
 
+/* For Desktop*/
+@media (min-width: 990px){
+.about-quote { 
+    padding-top: 5%;
+    margin-top: 5%;
+}
+}
+
 /*original code credit for project timeline list and line: https://austinknight.com/ */
 .project-timeline-container {
     position: relative;
