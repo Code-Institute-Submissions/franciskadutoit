@@ -903,6 +903,24 @@ h2, .ui-subheading{
     margin-top: 5%;
 }
 
+/* -----------------------------------Developer Portfolio Page */
+.code-img{
+    width: 100%;
+    box-shadow: 0px 1px 5px 0px #bfbfbf;
+}
+
+.code-text{
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+/*For Desktop*/
+@media screen and (min-width: 990px){
+.code-text{
+    text-align: left;
+    font-size: small;
+}}
+
 /* ----------------------------------------Hover.css */
 
 .hvr-sweep-to-bottom:before {
