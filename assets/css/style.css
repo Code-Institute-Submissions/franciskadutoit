@@ -42,109 +42,93 @@ html {
     color: #857777;
 }
 
+/* ----------------------------------------Banner */
 
-/* ----------------------------------------Hero Image */
-
-.hero-image-mobile {
-    background-color: #cccccc;
-    height: 400px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    padding-top: 0%;
-    margin-left: 0%;
-}
-
-/* For Tablet*/
-@media screen and (min-width:600px) { 
-    .hero-image-mobile {
-        background-size: 60% ;
-        background-color: #fff;
-    } 
-} 
-
-/* For Desktop*/
-@media screen and (min-width:990px) { 
-    .hero-image-mobile {display: none;} 
-} 
-
-.hero-image {
-    display: none;
-    background-position: 50% 0px;
-    background-color: #222222;
-    
-}
-
-/* hero image layout original credit : http://themes.2the.me/Node/1.0.4/index.html#) */
-/*To place image on left hand side of page */
-/* For Desktop*/
-@media (min-width: 992px){
-.hero-image, .personal-content {
-    width: 50%;
-}
-}
-
-/* For Desktop*/
-/*To make sure image stays fixed image on left hand side for desktop view */
-@media (min-width: 992px){
-.hero-image {
+/*For Desktop*/
+@media (min-width: 1000px) {
+#home{
     position: fixed;
-    top: 0px;
-    left: 0px;
-    bottom: 0px;
-    background-size: cover;
-    display: block;
-    background-position: 50% 0%;
 }
 }
 
-/*To position the list items in footer*/
-.hero-image-footer {
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-    padding: 25px 50px;
-    background-color: rgba(56, 55, 55, 0.5);
+.banner-image{
+	width:100%;
+	z-index: -1;
+}
+    
+.banner-imager-social {
+	background-color: rgba(56, 55, 55, 0.5);
+	height:60px;
+	margin-top:-60px;
+    padding-left: 30px;
     
 }
 
-/*To style the list items in footer*/
-.social-list {
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 10px;
-    color: #fff;
-    list-style: none;
-    padding: 0px;
-    margin: 0px;
+.banner-imager-social-contact {
+    background-color: rgba(56, 55, 55, 0.5);
+	height:60px;
+	margin-top:-60px;
+    padding-left: 30px;
 }
 
-.social-list > li > a {
-    color: #fff;
-    font-size: 15px;
+/*For Tablet*/
+@media (min-width: 600px) {
+.banner-imager-social {
+    padding-left: 30%;
 }
-
-/*To make list horizontal & next to each other in footer*/
-.social-list > li {
-    display: inline-block;
-    margin: 0px 0px 0px 30px;
 }
-
-/* For Desktop*/
-/*To place content on right hand side of page*/
-@media (min-width: 992px){
-.personal-content {
-    float: right;
+/*For Desktop*/
+@media (min-width: 990px) {
+.banner-imager-social {
+    margin-top: -60%;
+    display: table;
+    padding-left: 0px;
+}
+}
+@media (min-width: 1024px){
+#social-banner-hide-lg{
+    display: none;
 }
 }
 
-/* For Desktop*/
-@media (min-width: 992px){
-.hero-image, .personal-content {
-    width: 50%;
+@media (max-width: 900px){
+#social-banner-hide-sm{
+    display: none;
 }
 }
+
+/*For Tablet*/
+@media (min-width: 600px) {
+.banner-imager-social-contact  {
+    padding-left: 30%;
+}
+}
+
+/*For Desktop*/
+@media (min-width: 1024px) {
+.banner-imager-social-contact {
+    margin-top: -30%;
+    display: table;
+    padding-left: 0px;
+    margin-left: 102%;
+}
+}
+
+.banner-imager-social .fab{
+	font-size:large;
+	color:white;
+	padding-top: 15px;
+}
+
+.banner-imager-social-contact .fab {
+    font-size:large;
+	color:white;
+    padding-top: 15px;
+}
+
+
+/
+
 
 /* ----------------------------------------Home page */
 
