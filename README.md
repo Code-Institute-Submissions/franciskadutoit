@@ -88,6 +88,11 @@ At the bottom of the form, clients can click on the button to send a **message v
 - [Home Page](index.html) - Allows the user to see a quick snapshot of who is Franciska Du Toit. It also allows the user to see a high level page to navigate them to specific projects in her portfolio
 - [About Page](about.html) - Allows the user to connect with Franciska Du Toit by providing a snapshot of information of her CV but also providing the option to download a more detailed pdf version.
 - [Contact Form](contact.html) - Allows the user to get in contact or ask questions in two ways: by entering the form or connecting to LinkedIn.
+- [UI Challenges Page](uichallenges.html) - Allows the user see ui challenge projects by Franciska Du Toit.
+- [UI Challenges Page](uxcasestudies.html) - Allows the user see ux case studies by Franciska Du Toit.
+- [Developer Projects Page](developerprojects.html) - Allows the user see developer projects by Franciska Du Toit.
+- [Other Projects Page](otherprojects.html) - Allows the user see other projects by Franciska Du Toit.
+
 
 ### Features Left to Implement
 - A blog/ Articles - Allows the user to see some articles written by the Franciska Du Toit establishing her as a thought leader. - she currently doesn't have time to write a blog
