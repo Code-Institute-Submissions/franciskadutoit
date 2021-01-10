@@ -752,8 +752,23 @@ html {
 /*For Desktop*/
 @media screen and (min-width: 990px){
 .form-container{
-    padding-top: 20%;
+    padding-top: 10%;
 }
+}
+
+input {
+    margin-bottom: 5%;
+}
+
+.form-control{
+    font-size: small;
+}
+
+h1, .contact-heading{
+    text-align: center;
+    font-size: 20px;
+    color: #1f1e1e;
+    letter-spacing: 1px;
 }
 
 .contact-btn-container{
@@ -764,7 +779,7 @@ html {
 /*For Desktop*/
 @media screen and (min-width: 990px){
 .contact-btn-container{
-    padding-top: 10%;
+    padding-top: 10px;
 }
 }
 
@@ -778,6 +793,55 @@ html {
     background-color: #15343d;
     color: white;
 }
+
+
+/*To style Linkedin link */
+.msg-btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2%;
+}
+
+
+#msg-btn {
+    color: #316879;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.3);
+    border-radius: 8px;
+    margin-top: 10%;
+    
+} 
+
+#msg-btn .list-btn-item-secondary {
+    color: #316879;
+    
+    text-decoration: none;
+}
+
+.btn:hover{
+    color: #fff;
+    background-color: #214b58;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 8px;
+    
+} 
+
+.btn a {
+    background-color: transparent;
+}
+
+.list-btn-item-secondary {
+    color: #fff;
+    background-color: #316879;
+    text-decoration: none;
+    
+}
+
+.list-btn-item-secondary:hover{
+    color: #ffff;
+}
+
 /* ----------------------------------------Hover.css */
 
 .hvr-sweep-to-bottom:before {
