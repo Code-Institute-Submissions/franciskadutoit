@@ -44,6 +44,12 @@ html {
 
 /* ----------------------------------------Banner */
 
+.container-fluid .main-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 /*For Desktop*/
 @media (min-width: 1000px) {
 #home{
@@ -53,8 +59,10 @@ html {
 
 .banner-image{
 	width:100%;
-	z-index: -1;
+    z-index: -1;
+    height: 100%;
 }
+
     
 .banner-imager-social {
 	background-color: rgba(56, 55, 55, 0.5);
