@@ -116,31 +116,37 @@ At the bottom of the form, clients can click on the button to send a **message v
 ## Testing
 
 ### Testing client stories from UX section
-As a recruiter, I want to see some background information of Franciska Du Toit, so that I can understand if she will be a good fit with an organisation.
-The home page have 4 bullet points to give a high level summary and a glimpse of who Franciska Du Toit is with a call to action button to the about page to see more information.
-The home page also features a quote by Franciska Du Toit to give the recruiter some insights into what drives her and what she stands for.
-The about page features a quote by Franciska Du Toit to give the recruiter some insights into what drives her and what she stands for.
-The about page features some background information including projects and qualifications by Franciska Du Toit.
-As a recruiter, I want to see Franciska Du Toit’s portfolio of projects, so that I can see and understand her process when taking on a project.
-The home page features links to Franciska Du Toit’s projects directly to easily navigate to see project she was involved in
-There is a project feature on the About page to give a snapshot of some of the projects she has worked on in her previous roles
-As a recruiter, I want to see Franciska Du Toit’s CV, so that I can view her previous experience and qualifications
-There is a high level overview of Franciska Du Toit’s work experience and qualifications
-There is a link to download a pdf version of Franciska Du Toit’s CV with more detail and to be able to print a presentable version.
-As a new visitor to the website, I want to easily navigate the site, so I can find what I need efficiently.
-On every page a new visitor lands on, the navigation bar is at the top and easy to find so that the user can navigate to what they need efficiently. 
-The logo “Franciska Du Toit” always leads back to the home page which is the landing page of the website.
-The home page call to action button leads the user to the about page to see Franciska Du Toit’s work experience and qualifications.
-The home page features links to Franciska Du Toit’s projects to easily navigate to see project she was involved in.
-As a new visitor to the website, I want learn more about Franciska Du Toit, so I can feel that I understand her purpose and what she stands for
-The home page also features a quote by Franciska Du Toit to give the recruiter some insights into what drives her and what she stands for.
-The about page features a quote by Franciska Du Toit to give the recruiter some insights into what drives her and what she stands for.
-As an interested follower and observer, I want to follow Franciska Du Toit on social media, so I can keep up with her latest news.
-There are 4 social media icons that can be found on every page of the website.
-The contact page features a call to action to contact Franciska on LinkedIn 
-As an interested recruiter or interested follower, I want an easy to fill in contact form, so I can make contact with Franciska Du Toit
-A clearly labelled contact page is easy to find in the website navigation on every page.
-The contact page features a form to submit to contact Franciska Du Toit
+1. As a recruiter, I want to see some background information of Franciska Du Toit, so that I can understand if she will be a good fit with an organisation.
+    1. The home page have 4 bullet points to give a high level summary and a glimpse of who Franciska Du Toit is with a call to action button to the about page to see more information.
+    2. The home page also features a quote by Franciska Du Toit to give the recruiter some insights into what drives her and what she stands for.
+    3. The about page features a quote by Franciska Du Toit to give the recruiter some insights into what drives her and what she stands for.
+    4. The about page features some background information including projects and qualifications by Franciska Du Toit.
+
+2. As a recruiter, I want to see Franciska Du Toit’s portfolio of projects, so that I can see and understand her process when taking on a project.
+    1. The home page features links to Franciska Du Toit’s projects directly to easily navigate to see project she was involved in
+    2. There is a project feature on the About page to give a snapshot of some of the projects she has worked on in her previous roles
+
+3. As a recruiter, I want to see Franciska Du Toit’s CV, so that I can view her previous experience and qualifications
+    1. There is a high level overview of Franciska Du Toit’s work experience and qualifications
+    2. There is a link to download a pdf version of Franciska Du Toit’s CV with more detail and to be able to print a presentable version.
+
+4. As a new visitor to the website, I want to easily navigate the site, so I can find what I need efficiently.
+    1. On every page a new visitor lands on, the navigation bar is at the top and easy to find so that the user can navigate to what they need efficiently. 
+    2. The logo “Franciska Du Toit” always leads back to the home page which is the landing page of the website.
+    3. The home page call to action button leads the user to the about page to see Franciska Du Toit’s work experience and qualifications.
+    4. The home page features links to Franciska Du Toit’s projects to easily navigate to see project she was involved in.
+
+5. As a new visitor to the website, I want learn more about Franciska Du Toit, so I can feel that I understand her purpose and what she stands for
+    1. The home page also features a quote by Franciska Du Toit to give the recruiter some insights into what drives her and what she stands for.
+    2. The about page features a quote by Franciska Du Toit to give the recruiter some insights into what drives her and what she stands for.
+
+6. As an interested follower and observer, I want to follow Franciska Du Toit on social media, so I can keep up with her latest news.
+    1. There are 4 social media icons that can be found on every page of the website.
+    2. The contact page features a call to action to contact Franciska on LinkedIn 
+
+7. As an interested recruiter or interested follower, I want an easy to fill in contact form, so I can make contact with Franciska Du Toit
+    1. A clearly labelled contact page is easy to find in the website navigation on every page.
+    2. The contact page features a form to submit to contact Franciska Du Toit
 
 ### Manual testing of all elements and functionality on every page.
 
@@ -167,16 +173,16 @@ The contact page features a form to submit to contact Franciska Du Toit
 4. Review all functionality and responsiveness on my mobile phone and tablet.
 
 #### UI Challenges Page:
-Navigation bar:
-Repeat verification steps done for navbar on Home page.
-Confirm that navbar code is identical on all html pages. 
-Hero image / Social Banner
-Repeat verification steps done for hero image on Home page.
-Verify all social media links go to social media pages
-Copy section
-Reduce the width of the window to confirm that the content moves from the right of the screen to the bottom of the image for mobile and tablet.
-Reduce the width of the window to confirm the text for each project the text moves above the image for mobile.
-Review all functionality and responsiveness on my mobile phone and tablet.
+1. Navigation bar:
+    1. Repeat verification steps done for navbar on Home page.
+    2. Confirm that navbar code is identical on all html pages. 
+2. Hero image / Social Banner
+    1. Repeat verification steps done for hero image on Home page.
+    2. Verify all social media links go to social media pages
+3. Copy section
+    1. Reduce the width of the window to confirm that the content moves from the right of the screen to the bottom of the image for mobile and tablet.
+    2. Reduce the width of the window to confirm the text for each project the text moves above the image for mobile.
+3. Review all functionality and responsiveness on my mobile phone and tablet.
 
 #### UX Case Studies Page:
 1. Navigation bar:
