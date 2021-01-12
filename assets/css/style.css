@@ -859,10 +859,8 @@ h1, .contact-heading{
 
 /* ----------------------------------------UI Page */
 .ui-container {
-    display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .ui-img {
