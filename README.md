@@ -54,26 +54,26 @@ Each page features a responsive **navigation bar** at the top with conventional 
 * For Mobile - Hamburger menu so that the screen does not look to crowded. The menu would collaps when tapped.
 * For Tablet - I decided to have the full menu navigation bar at the top of the screen as there is more space on a tablet 
 * For Desktop - Full navigation menu at the top of the main menu items: Home, Portfolio, About and Contact
-Each page has **social media icons** linking to 4 Franciska Du Toit’s social media pages.
-Each page features a hero image. On mobile and tablet devices the static hero image is at the top with the text at the bottom. On desktops the static hero image moves to the left and takes up 50% of the page. The content takes up 50% on the other side of the screen.
+* Each page has **social media icons** linking to 4 Franciska Du Toit’s social media pages.
+* Each page features a hero image. On mobile and tablet devices the static hero image is at the top with the text at the bottom. On desktops the static hero image moves to the left and takes up 50% of the page. The content takes up 50% on the other side of the screen.
 
 ### Home
 There is a **call to action button** to take the user directly to the **About page**.
-There are 4 **list items** to give a short overview of who Franciska Du Toit is.
-The Portfolio section has 4 **sub-menu items** laid out in **columns**, 2 columns wide for all devices.
-Each item is square which is animated by using a hover effect that will sweep down when the user’s mouse hover over them. 
-Each item can be clicked to take the user to the respective submenu item pages.
+1. There are 4 **list items** to give a short overview of who Franciska Du Toit is.
+2. The Portfolio section has 4 **sub-menu items** laid out in **columns**, 2 columns wide for all devices.
+3. Each item is square which is animated by using a hover effect that will sweep down when the user’s mouse hover over them. 
+4. Each item can be clicked to take the user to the respective submenu item pages.
 
 ### About
-The About page includes copy about the Franciska Du Toit.
-The page also has a list with 5 **project list items** which if clicked will reveal more information on the project. 
-There is also a feature on Franciska Du Toit’s qualifications which has 2 sections for In Progress which only has 1 list item and Completed which has 4 list items.
-Lastly, there is also a download icon to indicate to the user that they can download a pdf version of her CV. There is then a link to the pdf document for the user to make it more convenient to read or print.
+1. The About page includes copy about the Franciska Du Toit.
+2. The page also has a list with 5 **project list items** which if clicked will reveal more information on the project. 
+3. here is also a feature on Franciska Du Toit’s qualifications which has 2 sections for In Progress which only has 1 list item and Completed which has 4 list items.
+4. Lastly, there is also a download icon to indicate to the user that they can download a pdf version of her CV. There is then a link to the pdf document for the user to make it more convenient to read or print.
 
 ### Contact
-The Contact page features a **contact form**, which requests client name and email, subject line, and a box for the main message. 
-The bottom of the form contains a **Send Button**
-At the bottom of the form, clients can click on the button to send a **message via LinkedIn**.
+1. The Contact page features a **contact form**, which requests client name and email, subject line, and a box for the main message. 
+2. The bottom of the form contains a **Send Button**
+3. At the bottom of the form, clients can click on the button to send a **message via LinkedIn**.
 
  
 ### Existing Features
@@ -94,8 +94,9 @@ At the bottom of the form, clients can click on the button to send a **message v
 - [Other Projects Page](otherprojects.html) - Allows the user see other projects by Franciska Du Toit.
 
 
-### Features Left to Implement
+### Future Features Left to Implement
 - A blog/ Articles - Allows the user to see some articles written by the Franciska Du Toit establishing her as a thought leader. - she currently doesn't have time to write a blog
+- Add success message for form - need Javascript
 
 ## Technologies Used
 
