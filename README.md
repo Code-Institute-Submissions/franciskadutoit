@@ -115,23 +115,134 @@ At the bottom of the form, clients can click on the button to send a **message v
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+### Testing client stories from UX section
+As a recruiter, I want to see some background information of Franciska Du Toit, so that I can understand if she will be a good fit with an organisation.
+The home page have 4 bullet points to give a high level summary and a glimpse of who Franciska Du Toit is with a call to action button to the about page to see more information.
+The home page also features a quote by Franciska Du Toit to give the recruiter some insights into what drives her and what she stands for.
+The about page features a quote by Franciska Du Toit to give the recruiter some insights into what drives her and what she stands for.
+The about page features some background information including projects and qualifications by Franciska Du Toit.
+As a recruiter, I want to see Franciska Du Toit’s portfolio of projects, so that I can see and understand her process when taking on a project.
+The home page features links to Franciska Du Toit’s projects directly to easily navigate to see project she was involved in
+There is a project feature on the About page to give a snapshot of some of the projects she has worked on in her previous roles
+As a recruiter, I want to see Franciska Du Toit’s CV, so that I can view her previous experience and qualifications
+There is a high level overview of Franciska Du Toit’s work experience and qualifications
+There is a link to download a pdf version of Franciska Du Toit’s CV with more detail and to be able to print a presentable version.
+As a new visitor to the website, I want to easily navigate the site, so I can find what I need efficiently.
+On every page a new visitor lands on, the navigation bar is at the top and easy to find so that the user can navigate to what they need efficiently. 
+The logo “Franciska Du Toit” always leads back to the home page which is the landing page of the website.
+The home page call to action button leads the user to the about page to see Franciska Du Toit’s work experience and qualifications.
+The home page features links to Franciska Du Toit’s projects to easily navigate to see project she was involved in.
+As a new visitor to the website, I want learn more about Franciska Du Toit, so I can feel that I understand her purpose and what she stands for
+The home page also features a quote by Franciska Du Toit to give the recruiter some insights into what drives her and what she stands for.
+The about page features a quote by Franciska Du Toit to give the recruiter some insights into what drives her and what she stands for.
+As an interested follower and observer, I want to follow Franciska Du Toit on social media, so I can keep up with her latest news.
+There are 4 social media icons that can be found on every page of the website.
+The contact page features a call to action to contact Franciska on LinkedIn 
+As an interested recruiter or interested follower, I want an easy to fill in contact form, so I can make contact with Franciska Du Toit
+A clearly labelled contact page is easy to find in the website navigation on every page.
+The contact page features a form to submit to contact Franciska Du Toit
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+### Manual testing of all elements and functionality on every page.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+#### Home Page:
+1. Navigation bar:
+    1. Go to the "Home" page from a desktop.
+    2. Change the screen size from desktop to mobile to verify that the navigation bar is responsive and switches from in line menu to burger icon dropdown menu at the appropriate place.
+    3. Click on the logo in the navigation bar and verify that it links to the home page.
+    4. Click on each navigation menu item and verify that it links to the correct page.
+2. Hero image / Social Banner
+    1. Go to "Home" page from a desktop. 
+    2. Reduce the width of the window to confirm that the image switches to the top of the screen for mobile and tablet.
+    3. Reduce the width of the window to confirm that the social banner switches to the bottom of the image for mobile and tablet.
+    4. Verify all social media links go to social media pages
+3. Copy section
+    1. Reduce the width of the window to confirm that the content moves from the right of the screen to the bottom of the image for mobile and tablet.
+    2. Reduce the width of the window to confirm that the bullets shift from 2 columns and 2 rows to 1 column with 4 rows for mobile and tablet.
+    3. Reduce the width of the window to verify if quote disappears for mobile view
+    4. Hover over the “more about me" button and verify verify if you hover over it, the colour change works as expected.
+    5. Click on the "more about me" button and verify that it links to the about page. This did not work when tested so the link was fixed.
+    6. Change screen size to small and click burger icon, verify that the menu drops down.
+    7. Check links to portfolio to other pages.
+    8. Hover over the portfolio nav box menu and verify if you hover over the menu items, the colour change works as expected.
+4. Review all functionality and responsiveness on my mobile phone and tablet.
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+#### UI Challenges Page:
+Navigation bar:
+Repeat verification steps done for navbar on Home page.
+Confirm that navbar code is identical on all html pages. 
+Hero image / Social Banner
+Repeat verification steps done for hero image on Home page.
+Verify all social media links go to social media pages
+Copy section
+Reduce the width of the window to confirm that the content moves from the right of the screen to the bottom of the image for mobile and tablet.
+Reduce the width of the window to confirm the text for each project the text moves above the image for mobile.
+Review all functionality and responsiveness on my mobile phone and tablet.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+#### UX Case Studies Page:
+1. Navigation bar:
+    1. Repeat verification steps done for navbar on Home page.
+    2. Confirm that navbar code is identical on all html pages. 
+2. Hero image / Social Banner
+    1. Repeat verification steps done for hero image on Home page.
+    2. Verify all social media links go to social media pages
+3. Copy section
+    1. Reduce the width of the window to confirm that the content moves from the right of the screen to the bottom of the image for mobile and tablet.
+    2. Reduce the width of the window to confirm the text for each project the text moves below the image for mobile.
+4. Review all functionality and responsiveness on my mobile phone and tablet.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+#### Developer Portfolio Page:
+1. Navigation bar:
+    1. Repeat verification steps done for navbar on Home page.
+    2. Confirm that navbar code is identical on all html pages. 
+2. Hero image / Social Banner
+    1. Repeat verification steps done for hero image on Home page.
+    2. Verify all social media links go to social media pages
+3. Copy section
+    1. Reduce the width of the window to confirm that the content moves from the right of the screen to the bottom of the image for mobile and tablet.
+    2. Reduce the width of the window to confirm the text for each project the text moves above the image for mobile.
+4. Review all functionality and responsiveness on my mobile phone and tablet.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+#### Other Projects Page:
+1. Navigation bar:
+    1. Repeat verification steps done for navbar on Home page.
+    2. Confirm that navbar code is identical on all html pages. 
+2. Hero image / Social Banner
+    1. Repeat verification steps done for hero image on Home page.
+    2. Verify all social media links go to social media pages
+3. Copy section
+    1. Reduce the width of the window to confirm that the content moves from the right of the screen to the bottom of the image for mobile and tablet.
+    2. Reduce the width of the window to confirm the text for each project the text stays above the image for all screen sizes.
+4. Review all functionality and responsiveness on my mobile phone and tablet.
+
+
+#### About Page:
+1. Navigation bar:
+    1. Repeat verification steps done for navbar on Home page.
+    2. Confirm that navbar code is identical on all html pages. 
+2. Hero image / Social Banner
+    1. Repeat verification steps done for hero image on Home page.
+    2. Verify all social media links go to social media pages
+3. Copy section
+    1. Reduce the width of the window to confirm that the content moves from the right of the screen to the bottom of the image for mobile and tablet.
+    2. Reduce the width of the window to confirm that the quote remains at the top, under the image for mobile and tablet.
+    3. Click on the image in the project tabs to verify they move to the next project when clicked and reduce screen to confirm the same happens for mobile and tablet.
+    4. Click on qualification bullets to see if links are working and opening the correct sites for the links.
+    5. Click on download button and verify a pdf document opens for the cv pdf.
+4. Review all functionality and responsiveness on my mobile phone and tablet.
+
+
+#### Contact Page:
+1. Navigation bar:
+    1. Repeat verification steps done for navbar on Home page.
+    2. Confirm that navbar code is identical on all html pages. 
+2. Hero image / Social Banner
+    1. Repeat verification steps done for hero image on Home page.
+    2. Verify all social media links go to social media pages
+3. Copy section
+    1. Try to submit the empty form and verify that an error message about the required fields appears
+    2. Try to submit the form with an invalid email address and verify that a relevant error message appears
+    3. Reduce and expand width of window to verify that the form display behaves and centres the way expected, and that it looks good on all device widths.
+4. Review all functionality and responsiveness on my mobile phone and tablet.
 
 ## Deployment
 
