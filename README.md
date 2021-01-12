@@ -81,6 +81,10 @@ There is a **call to action button** to take the user directly to the **About pa
 - Logo - Features on all the pages and allows the user to easily recognise the brand of Franciska Du Toit. If the user clicks on the logo, it will return the users to the home page as they would expect.
 - Navigation Bar - Features on all the pages and allows the user to easily navigate the website's pages and find what they are looking for with ease and speed.
 
+#### Hero-image
+- There is a hero-image on the top for all pages on mobile and tablet.
+- There is a hero-image on the left for all pages on desktop.
+
 #### Social Banner
 - Social Icons - Features on all the pages and allows the user to access the social platforms that Franciska Du Toit uses.
 
