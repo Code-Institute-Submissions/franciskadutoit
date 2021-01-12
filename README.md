@@ -97,8 +97,6 @@ There is a **call to action button** to take the user directly to the **About pa
 - [About Page](about.html) - Allows the user to connect with Franciska Du Toit by providing a snapshot of information of her CV but also providing the option to download a more detailed pdf version.
 - [Contact Form](contact.html) - Allows the user to get in contact or ask questions in two ways: by entering the form or connecting to LinkedIn.
 
-
-
 ### Future Features Left to Implement
 - A blog/ Articles - Allows the user to see some articles written by the Franciska Du Toit establishing her as a thought leader. - she currently doesn't have time to write a blog
 - Add success message for form - need Javascript
@@ -262,7 +260,7 @@ This project was developed using the [Gitpod IDE](https://www.gitpod.io/), commi
 
 To deploy this page to GitHub Pages from its [GitHub repository](https://github.com/Franciskadtt/franciskadutoit), the following steps were taken:
 
-Log into GitHub.
+#### Log into GitHub.
 1. From the list of repositories on the screen, select **Franciskadtt/franciskadutoit**.
 2. From the menu items near the top of the page, select **Settings**.
 3. Scroll down to the **GitHub Pages** section.
