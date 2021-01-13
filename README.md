@@ -118,6 +118,12 @@ There is a **call to action button** to take the user directly to the **About pa
     - The project uses **jQuery** to reference Javascript needed for the responsive navbar,
 - [Hover.css CDN](https://cdnjs.com/libraries/hover.css/2.1.0)
     - The project uses **Hover.css** to apply hover effects to the projects navbar.
+- [Github](https://github.com/)
+    - The project uses **Github** for hosting and version control.
+- [Responsinator](http://www.responsinator.com/)
+    - The project used **Responsinator** to determine if the site was responsive of various devices.
+- Chrome DevTools
+    - For this project, the web developer tools built directly into the Google Chrome browser was used to help edit pages and diagnose problems quickly.
 
 ## Testing
 
