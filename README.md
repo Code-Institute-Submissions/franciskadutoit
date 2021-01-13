@@ -183,6 +183,7 @@ There is a **call to action button** to take the user directly to the **About pa
     7. Check links to portfolio to other pages.
     8. Hover over the portfolio nav box menu and verify if you hover over the menu items, the colour change works as expected.
 4. Review all functionality and responsiveness on my mobile phone and tablet.
+5. Review all functionality and responsiveness on desktop browsers by expanding and reducing browser size. Fixed a display issue of hero images in Safari Browser as it was stretched. It was fixed by changing the “banner-image” class height to 100%. Thereafter it is verified that the hero image displays correctly in all browsers including Safari, Chrome, Edge, Internet Explorer, Firefox and Opera browsers.
 
 #### UI Challenges Page:
 1. Navigation bar:
@@ -194,7 +195,8 @@ There is a **call to action button** to take the user directly to the **About pa
 3. Copy section
     1. Reduce the width of the window to confirm that the content moves from the right of the screen to the bottom of the image for mobile and tablet.
     2. Reduce the width of the window to confirm the text for each project the text moves above the image for mobile.
-3. Review all functionality and responsiveness on my mobile phone and tablet.
+4. Review all functionality and responsiveness on my mobile phone and tablet.
+5. Review all functionality and responsiveness on different desktop browsers and fix a display issue in Internet Explorer where the content and images for the “Portfolio” sub-pages in the copy section by removing “display:flex”. After the fix, the website displayed correctly in all browsers including Safari, Chrome, Edge, Internet Explorer, Firefox and Opera browsers.
 
 #### UX Case Studies Page:
 1. Navigation bar:
@@ -207,6 +209,7 @@ There is a **call to action button** to take the user directly to the **About pa
     1. Reduce the width of the window to confirm that the content moves from the right of the screen to the bottom of the image for mobile and tablet.
     2. Reduce the width of the window to confirm the text for each project the text moves below the image for mobile.
 4. Review all functionality and responsiveness on my mobile phone and tablet.
+5. Review all functionality and responsiveness on different desktop browsers and fix a as with the UI Challenges page.
 
 #### Developer Portfolio Page:
 1. Navigation bar:
@@ -219,6 +222,7 @@ There is a **call to action button** to take the user directly to the **About pa
     1. Reduce the width of the window to confirm that the content moves from the right of the screen to the bottom of the image for mobile and tablet.
     2. Reduce the width of the window to confirm the text for each project the text moves above the image for mobile.
 4. Review all functionality and responsiveness on my mobile phone and tablet.
+5. Review all functionality and responsiveness on different desktop browsers and fix a as with the UI Challenges page.
 
 #### Other Projects Page:
 1. Navigation bar:
@@ -231,6 +235,7 @@ There is a **call to action button** to take the user directly to the **About pa
     1. Reduce the width of the window to confirm that the content moves from the right of the screen to the bottom of the image for mobile and tablet.
     2. Reduce the width of the window to confirm the text for each project the text stays above the image for all screen sizes.
 4. Review all functionality and responsiveness on my mobile phone and tablet.
+5. Review all functionality and responsiveness on different desktop browsers and fix a as with the UI Challenges page.
 
 
 #### About Page:
@@ -261,6 +266,11 @@ There is a **call to action button** to take the user directly to the **About pa
     2. Try to submit the form with an invalid email address and verify that a relevant error message appears
     3. Reduce and expand width of window to verify that the form display behaves and centres the way expected, and that it looks good on all device widths.
 4. Review all functionality and responsiveness on my mobile phone and tablet.
+
+## Further testing: 
+
+1. Asked fellow students, friends and family to look at the site on their devices and report any issues they find. 
+2. Viewed my website on several devices, no further issues found.
 
 ## Deployment
 
