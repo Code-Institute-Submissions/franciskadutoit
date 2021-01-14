@@ -124,6 +124,10 @@ There is a **call to action button** to take the user directly to the **About pa
     - The project used **Responsinator** to determine if the site was responsive of various devices.
 - Chrome DevTools
     - For this project, the web developer tools built directly into the Google Chrome browser was used to help edit pages and diagnose problems quickly.
+- [W3C Markup Validator](https://validator.w3.org/)
+    - For testing HTML code
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+    - For testing CSS code
 
 ## Testing
 
