@@ -11,6 +11,7 @@ body {
     margin-bottom: 10%;
 }
 
+/* original code credit: https://css-tricks.com/snippets/jquery/smooth-scrolling/*/
 html {
     scroll-behavior: smooth;
 }
@@ -34,6 +35,7 @@ html {
     background-color: #222222;
     
 }
+
 .navbar .dropdown-menu a:not(.active) {
     color: #e6e3e3;
 }
@@ -529,7 +531,7 @@ html {
     
 }
 }
-
+/*original code credit for project timeline list and line: https://austinknight.com/ */
 @media (min-width: 990px){
     .timeline-event{
     padding: 9px;
@@ -544,11 +546,9 @@ html {
 }
 }
 
-
 .tab-active {
     display: block;
 }
-
 
 .container .list-group{
     display: flex; 
@@ -650,7 +650,7 @@ html {
         margin-top: 10%;
 }
 }
-
+/*original code credit with modifications: https://austinknight.com/ */
 .timeline-year {
     position: relative;
     color: #636363;
