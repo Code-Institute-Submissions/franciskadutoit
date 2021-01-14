@@ -507,12 +507,7 @@ html {
     padding: 9px;
     border-style: none;
     border-radius: 100px;
-    background-color: #fff;
     box-shadow: 0 1px 5px 0 #dadada;
-    -webkit-transition: box-shadow 300ms ease, -webkit-transform 300ms ease;
-    transition: box-shadow 300ms ease, -webkit-transform 300ms ease;
-    transition: box-shadow 300ms ease, transform 300ms ease;
-    transition: box-shadow 300ms ease, transform 300ms ease, -webkit-transform 300ms ease;
     margin-right: 5px;
     margin-left: 5px;
     padding: 6px;
@@ -522,7 +517,6 @@ html {
     .timeline-event {
     border-style: none;
     border-radius: 100px;
-    background-color: #fff;
     box-shadow: 0 1px 5px 0 #dadada;
     margin-right: 70px;
     margin-left: 10px;
@@ -535,12 +529,7 @@ html {
     padding: 9px;
     border-style: none;
     border-radius: 100px;
-    background-color: #fff;
     box-shadow: 0 1px 5px 0 #dadada;
-    -webkit-transition: box-shadow 300ms ease, -webkit-transform 300ms ease;
-    transition: box-shadow 300ms ease, -webkit-transform 300ms ease;
-    transition: box-shadow 300ms ease, transform 300ms ease;
-    transition: box-shadow 300ms ease, transform 300ms ease, -webkit-transform 300ms ease;
 }
 }
 
@@ -571,9 +560,9 @@ html {
 }
 
 .list-group-item.active {
-    border-style: none;
     border-radius: 100px;
     background-color: #fff;
+    color: #15343d;
 }
 
 .list-group-item-action{
