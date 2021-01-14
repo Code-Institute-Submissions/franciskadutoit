@@ -185,7 +185,6 @@ html {
 /* For Tablet*/
 @media (min-width:600px) { 
     h1, .about-heading {
-    font-size: revert;
     line-height: 1.4;
     font-weight: 300;
     color: #222222;
@@ -316,7 +315,6 @@ html {
 /* To style portfolio section */
 .portfolio-heading{
     padding-top: 10%;
-    font-size: revert;
     line-height: 1.4;
     font-weight: 300;
     color: #222222;
