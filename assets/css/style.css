@@ -932,6 +932,7 @@ h2, .ui-subheading{
 .sub-paragraph{
     padding-bottom: 0px;
     margin-bottom: 0px;
+    color: #222222;
 }
 
 
@@ -942,6 +943,10 @@ h2, .ui-subheading{
 .code-text{
     text-align: center;
     padding-bottom: 0px;
+}
+
+.other-text{
+    color: #222222
 }
 
 /* ----------------------------------------Hover.css */
