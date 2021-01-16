@@ -242,6 +242,14 @@ html {
     padding-bottom: 2%;
 }
 
+/* For Small mobile devices*/
+@media (max-width: 375px) {
+.about-btn-container {
+    padding-left: 20%;
+}
+}
+
+
 /* For Tablet*/
 @media (min-width: 600px){
 .about-btn-container {
