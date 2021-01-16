@@ -330,10 +330,12 @@ At the moment of submitting this Milestone project the Development Branch and Ma
 - All the photos used in this site were obtained from Franciska Du Toit
 
 ### Code
-- HTML for the navbar originally taken from Bootstrap
-- HTML for the list and timeline  originally taken from https://austinknight.com/
-- CSS for the list and timeline originally taken from https://austinknight.com/
-- CSS fo image border styling originally taken from from https://www.w3schools.com/howto/howto_css_border_image.asp
+- HTML for the navbar, timeline, form originally taken from Bootstrap with modifications for this project.
+- HTML for the list and timeline originally taken from https://austinknight.com/ with modifications for this project.
+- CSS for the list and timeline originally taken from https://austinknight.com/ with modifications for this project.
+- CSS fo image border styling originally taken from from https://www.w3schools.com/howto/howto_css_border_image.asp with modifications for this project.
+- HTML & CSS for block on home page and pdf download section from: Bootstrap4 project (Code Institute) with modifications for this project.
+
 
 ### Acknowledgements
 
