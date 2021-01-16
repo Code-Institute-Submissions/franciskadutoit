@@ -60,7 +60,7 @@ Each page features a responsive **navigation bar** at the top with conventional 
 * Each page features a hero image. On mobile and tablet devices the static hero image is at the top with the text at the bottom. On desktops the static hero image moves to the left and takes up 50% of the page. The content takes up 50% on the other side of the screen.
 
 ### Home
-There is a **call to action button** to take the user directly to the **About page**.
+There is a **call to action link** to take the user directly to the **About page**.
 1. There are 4 **list items** to give a short overview of who Franciska Du Toit is.
 2. The Portfolio section has 4 **sub-menu items** laid out in **columns**, 2 columns wide for all devices.
 3. Each item is square which is animated by using a hover effect that will sweep down when the user’s mouse hover over them. 
