@@ -319,6 +319,8 @@ To work on the project code within a local IDE:
 6. Type git clone, and then paste the URL you copied in Step 3.
 7. Press Enter. Your local clone will be created.
 
+At the moment of submitting this Milestone project the Development Branch and Master Branch are identical.
+
 ## Credits
 
 ### Content
