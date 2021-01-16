@@ -182,8 +182,8 @@ There is a **call to action link** to take the user directly to the **About page
     1. Reduce the width of the window to confirm that the content moves from the right of the screen to the bottom of the image for mobile and tablet.
     2. Reduce the width of the window to confirm that the bullets shift from 2 columns and 2 rows to 1 column with 4 rows for mobile and tablet.
     3. Reduce the width of the window to verify if quote disappears for mobile view
-    4. Hover over the “more about me" button and verify verify if you hover over it, the colour change works as expected.
-    5. Click on the "more about me" button and verify that it links to the about page. This did not work when tested so the link was fixed.
+    4. Hover over the “more about me" link and verify verify if you hover over it, the colour change works as expected.
+    5. Click on the "more about me" link and verify that it links to the about page. This did not work when tested so the link was fixed.
     6. Change screen size to small and click burger icon, verify that the menu drops down.
     7. Check links to portfolio to other pages.
     8. Hover over the portfolio nav box menu and verify if you hover over the menu items, the colour change works as expected.
