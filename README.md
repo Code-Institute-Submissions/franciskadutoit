@@ -101,7 +101,7 @@ There is a **call to action link** to take the user directly to the **About page
 
 ### Future Features Left to Implement
 - A blog/ Articles - Allows the user to see some articles written by the Franciska Du Toit establishing her as a thought leader. - she currently doesn't have time to write a blog
-- Add success message for form - need Javascript
+- Add success message for form on contact page - need Javascript
 
 ## Technologies Used
 
