@@ -177,6 +177,7 @@ There is a **call to action button** to take the user directly to the **About pa
     2. Reduce the width of the window to confirm that the image switches to the top of the screen for mobile and tablet.
     3. Reduce the width of the window to confirm that the social banner switches to the bottom of the image for mobile and tablet.
     4. Verify all social media links go to social media pages
+    5. Fix error in target link when verified through HTML validator by removing a space in code.
 3. Copy section
     1. Reduce the width of the window to confirm that the content moves from the right of the screen to the bottom of the image for mobile and tablet.
     2. Reduce the width of the window to confirm that the bullets shift from 2 columns and 2 rows to 1 column with 4 rows for mobile and tablet.
