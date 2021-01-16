@@ -271,6 +271,8 @@ There is a **call to action button** to take the user directly to the **About pa
     2. Try to submit the form with an invalid email address and verify that a relevant error message appears
     3. Reduce and expand width of window to verify that the form display behaves and centres the way expected, and that it looks good on all device widths.
 4. Review all functionality and responsiveness on my mobile phone and tablet.
+5. Fix issue where on mobile view the social banner was at the bottom page and overlapping the linkedin link button by adding a class to ensure the banner is hidden for smaller screens and only visable for larger screens..
+6. Fix issue where on mobile view the social banner was not showing just below the hero-image by adding the social banner code again after the linkedin link button and adding a class to make sure that social media banner only is visable for smaller screens.
 
 ## Further testing: 
 
