@@ -31,7 +31,6 @@ This website is for users interested in information about Franciska Du Toit incl
 * Attract attention from prospective employers, recruiters or entities to work with
 
 ### User Stories
-
 * As a recruiter, I want to see some background information of Franciska Du Toit, so that I can understand if she will be a good fit with an organisation.
 * As a recruiter, I want to see Franciska Du Toit’s portfolio of projects, so that I can see and understand her process when taking on a project.
 * As a recruiter, I want to see Franciska Du Toit’s CV, so that I can view her previous experience and qualifications
@@ -50,14 +49,13 @@ This website is for users interested in information about Franciska Du Toit incl
 - [Contact](assets/wireframes/Wireframe_Contact_Page.png)
 
 ## Features
-
 Each page features a responsive **navigation bar** at the top with conventional placing of **logo** (top left)
 * There is a mobile-first focus and therefore I wanted to keep in mind first what will work on mobile. 
-* For Mobile - Hamburger menu so that the screen does not look to crowded. The menu would collaps when tapped.
-* For Tablet - I decided to have the full menu navigation bar at the top of the screen as there is more space on a tablet 
-* For Desktop - Full navigation menu at the top of the main menu items: Home, Portfolio, About and Contact
+* For Mobile - **Hamburger menu** so that the screen does not look to crowded. The menu would collaps when tapped.
+* For Tablet - I decided to have the full menu **navigation bar** at the top of the screen as there is more space on a tablet 
+* For Desktop - Full **navigation menu** at the top of the main menu items: Home, Portfolio, About and Contact
 * Each page has **social media icons** linking to 4 Franciska Du Toit’s social media pages.
-* Each page features a hero image. On mobile and tablet devices the static hero image is at the top with the text at the bottom. On desktops the static hero image moves to the left and takes up 50% of the page. The content takes up 50% on the other side of the screen.
+* Each page features a **hero image**. On mobile and tablet devices the static hero image is at the top with the text at the bottom. On desktops the static hero image moves to the left and takes up 50% of the page. The content takes up 50% on the other side of the screen.
 
 ### Home
 There is a **call to action link** to take the user directly to the **About page**.
@@ -104,7 +102,6 @@ There is a **call to action link** to take the user directly to the **About page
 - Add success message for form on contact page - need Javascript
 
 ## Technologies Used
-
 - This project uses HTML and CSS programming languages
 - [Gitpod](https://www.gitpod.io/) - This developer used **Gitpod** for their IDE while building the website.
 - [Popper.js](https://popper.js.org/)
@@ -173,7 +170,6 @@ There is a **call to action link** to take the user directly to the **About page
 ![Mobile view Franciska Du Toit Website - Contact page](assets/images/Franciska-Du-Toit-contact-page-final.png)
     1. There are 4 social media icons that can be found on every page of the website.
     2. The contact page features a call to action to contact Franciska on LinkedIn 
-    
 
 7. As an interested recruiter or interested follower, I want an easy to fill in contact form, so I can make contact with Franciska Du Toit
 ![Mobile view Franciska Du Toit Website - Contact page](assets/images/Franciska-Du-Toit-contact-page-final.png)
@@ -258,7 +254,6 @@ There is a **call to action link** to take the user directly to the **About page
 4. Review all functionality and responsiveness on my mobile phone and tablet.
 5. Review all functionality and responsiveness on different desktop browsers and fix a as with the UI Challenges page.
 
-
 #### About Page:
 1. Navigation bar:
     1. Repeat verification steps done for navbar on Home page.
@@ -340,10 +335,10 @@ At the moment of submitting this Milestone project the Development Branch and Ma
 ## Credits
 
 ### Content
-- The text for this website was created by Franciska Du Toit
+- The text for this website was created by Franciska Du Toit.
 
 ### Media
-- All the photos used in this site were obtained from Franciska Du Toit
+- All the photos used in this site were obtained from Franciska Du Toit.
 
 ### Code
 - HTML for the navbar, timeline, form originally taken from Bootstrap with modifications for this project.
