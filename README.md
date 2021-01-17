@@ -1,6 +1,6 @@
 # Franciska Du Toit Personal Website & Portfolio
 
-[View website in GitHub Pages](https://github.com/Franciskadtt/franciskadutoit)
+[View live version of website via GitHub Pages](https://franciskadtt.github.io/franciskadutoit/)
 
 A personal website to showcase the resume and portfolio of Franciska Du Toit based in Ireland. The purpose of the website is to give future employers a better look into the personality, achievements and projects of the individual. It is important in the technology field that people can see what a designer and developer can do, what their process is and what they can show for it at the end of the project. Therefore a personal profile and portfolio website is vital to connect with the user and also have a central place of information about Franciska Du Toit.  
 
