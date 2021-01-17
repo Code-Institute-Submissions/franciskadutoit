@@ -131,50 +131,56 @@ There is a **call to action link** to take the user directly to the **About page
 ### Testing client stories from UX section
 1. As a recruiter, I want to see some background information of Franciska Du Toit, so that I can understand if she will be a good fit with an organisation.
     1. The home page have 4 bullet points to give a high level summary and a glimpse of who Franciska Du Toit is with a call to action button to the about page to see more information.
-    ![Mobile view Franciska Du Toit Website - Home page](assets/images/Franciska-Du-Toit-Home-page-final.png)
+        - [Mobile view Home page](assets/images/Franciska-Du-Toit-Home-page-final.png)
     2. The home page also features a quote by Franciska Du Toit to give the recruiter some insights into what drives her and what she stands for.
-    ![Desktop view Franciska Du Toit Website - Home page](assets/images/Franciska-Du-Toit-Home-page-final-desktop.png)
+        - [Desktop view Home page](assets/images/Franciska-Du-Toit-Home-page-final-desktop.png)
     3. The about page features a quote by Franciska Du Toit to give the recruiter some insights into what drives her and what she stands for.
-    ![Mobile view Franciska Du Toit Website - About page](assets/images/Franciska-Du-Toit-About-page-final-1.png)
+        - [Mobile view About page](assets/images/Franciska-Du-Toit-About-page-final-1.png)
     4. The about page features some background information including projects and qualifications by Franciska Du Toit.
-    ![Mobile view Franciska Du Toit Website - About page](assets/images/Franciska-Du-Toit-about-page-final.png)
+        - [Mobile view About page](assets/images/Franciska-Du-Toit-about-page-final.png)
 
 2. As a recruiter, I want to see Franciska Du Toit’s portfolio of projects, so that I can see and understand her process when taking on a project.
     1. The home page features links to Franciska Du Toit’s projects directly to easily navigate to see project she was involved in
-    ![Mobile view Franciska Du Toit Website - Home page](assets/images/Franciska-Du-Toit-Home-page-final.png)
+        - [Mobile view Home page](assets/images/Franciska-Du-Toit-Home-page-final.png)
+        - [Mobile view Project Pages](assets/images/Franciska-Du-Toit-Project-pages-final.png)
     2. There is a project feature on the About page to give a snapshot of some of the projects she has worked on in her previous roles
-    ![Mobile view Franciska Du Toit Website - About page](assets/images/Franciska-Du-Toit-About-page-final-2.png)
+        - [Mobile view About page](assets/images/Franciska-Du-Toit-About-page-final-2.png)
 
 3. As a recruiter, I want to see Franciska Du Toit’s CV, so that I can view her previous experience and qualifications
     1. There is a high level overview of Franciska Du Toit’s work experience and qualifications
-    ![Mobile view Franciska Du Toit Website - About page](assets/images/Franciska-Du-Toit-About-page-final-2.png)
+        - [Mobile view About page](assets/images/Franciska-Du-Toit-About-page-final-2.png)
     2. There is a link to download a pdf version of Franciska Du Toit’s CV with more detail and to be able to print a presentable version.
-    ![Mobile view Franciska Du Toit Website - About page](assets/images/Franciska-Du-Toit-About-page-final-3.png)
+        - [Mobile view About page](assets/images/Franciska-Du-Toit-About-page-final-3.png)
 
 4. As a new visitor to the website, I want to easily navigate the site, so I can find what I need efficiently.
     1. On every page a new visitor lands on, the navigation bar is at the top and easy to find so that the user can navigate to what they need efficiently.
-    ![Desktop view Franciska Du Toit Website - Home page](assets/images/Franciska-Du-Toit-Home-page-final-desktop.png) 
+        - [Desktop view Home page](assets/images/Franciska-Du-Toit-Home-page-final-desktop.png) 
     2. The logo “Franciska Du Toit” always leads back to the home page which is the landing page of the website.
-    ![Mobile view Franciska Du Toit Website - About page](assets/images/Franciska-Du-Toit-About-page-final-1.png)
+        - [Mobile view About page](assets/images/Franciska-Du-Toit-About-page-final-1.png)
     3. The home page call to action button leads the user to the about page to see Franciska Du Toit’s work experience and qualifications.
-    ![Mobile view Franciska Du Toit Website - Home page](assets/images/Franciska-Du-Toit-Home-page-final.png)
-    4. The home page features links to Franciska Du Toit’s projects to easily navigate to see project she was involved in.![Mobile view Franciska Du Toit Website - Home page](assets/images/Franciska-Du-Toit-Home-page-final.png)
+        - [Mobile view Home page](assets/images/Franciska-Du-Toit-Home-page-final.png)
+    4. The home page features links to Franciska Du Toit’s projects to easily navigate to see project she was involved in.
+        - [Mobile view Home page](assets/images/Franciska-Du-Toit-Home-page-final.png)
+    5. In the navigation menu, the user can go directly to the different project pages depending on which projects they want to see.
+        - [Mobile view all project pages](assets/images/Franciska-Du-Toit-Project-pages-final.png)
 
 5. As a new visitor to the website, I want learn more about Franciska Du Toit, so I can feel that I understand her purpose and what she stands for
     1. The home page also features a quote by Franciska Du Toit to give the recruiter some insights into what drives her and what she stands for.
-    ![Desktop view Franciska Du Toit Website - Home page](assets/images/Franciska-Du-Toit-Home-page-final-desktop.png)
+        - [Desktop view Home page](assets/images/Franciska-Du-Toit-Home-page-final-desktop.png)
     2. The about page features a quote by Franciska Du Toit to give the recruiter some insights into what drives her and what she stands for.
-    ![Mobile view Franciska Du Toit Website - About page](assets/images/Franciska-Du-Toit-About-page-final-1.png)
+        - [Mobile view About page](assets/images/Franciska-Du-Toit-About-page-final-1.png)
 
 6. As an interested follower and observer, I want to follow Franciska Du Toit on social media, so I can keep up with her latest news.
-![Mobile view Franciska Du Toit Website - Contact page](assets/images/Franciska-Du-Toit-contact-page-final.png)
     1. There are 4 social media icons that can be found on every page of the website.
+        - [Mobile view all pages](assets/images/Franciska-Du-Toit-all-pages-final.png)
     2. The contact page features a call to action to contact Franciska on LinkedIn 
+        - [Mobile view Contact page](assets/images/Franciska-Du-Toit-contact-page-final.png)
 
 7. As an interested recruiter or interested follower, I want an easy to fill in contact form, so I can make contact with Franciska Du Toit
-![Mobile view Franciska Du Toit Website - Contact page](assets/images/Franciska-Du-Toit-contact-page-final.png)
     1. A clearly labelled contact page is easy to find in the website navigation on every page.
+        - [Desktop view Home page](assets/images/Franciska-Du-Toit-Home-page-final-desktop.png)
     2. The contact page features a form to submit to contact Franciska Du Toit
+        - [Mobile view Contact page](assets/images/Franciska-Du-Toit-contact-page-final.png)
 
 ### Manual testing of all elements and functionality on every page.
 
